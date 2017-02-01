@@ -1,0 +1,27 @@
+h1,h2,h3,h4,h5,h6 {
+	font-family: $font-heading;
+}
+
+h1.title {
+	font-size: 3.429em;
+	color: $color-dark;
+	line-height: 2em;
+}
+
+h2.heading {
+	font-size: 62px;
+	color: $color-grey;
+	font-weight: 900;
+	line-height: 1.7em;
+}
+
+
+h3.sub-heading {
+	font-size: 36px;
+	color: $color-grey;
+}
+
+p { 
+	line-height: 24px;
+	padding-bottom: 20px;
+}

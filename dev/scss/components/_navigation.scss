@@ -1,0 +1,133 @@
+nav.navigation {
+	width: 100%;
+ 	background: transparent;
+  	position: fixed;
+  	top: 0px;
+ 	left: 0px;
+ 	z-index: 10;
+ 	padding: 40px;
+ 	transition : all 0.3s;
+ 	a.logo {
+		width: 200px;
+		height: 50px;
+		background: url(../images/logo.png)no-repeat center center;
+		background-size: 100%;
+		display: inline-block;
+ 	}
+
+ 	.menu {
+ 		float: right;
+		ul {
+			float: left;
+			li {
+				float: left;
+				position: relative;
+				&:hover {
+					ul.submenu {
+						transform:translateX(50%) translateY(10%);
+						opacity: 1;
+						visibility: visible;
+					}
+				}
+				a {
+					display: block;
+					padding: 15px;
+					font-size: 16px;
+					color: #ffffff;
+					font-weight: 400;
+				}
+
+				ul.submenu {
+					float: inherit;
+					position: absolute;
+					top: 100%;
+					background: #ffffff;
+					border-radius: 10px;
+					padding: 20px 50px;
+					right: 50%;
+					transform:translateX(50%) translateY(20%);
+					opacity: 0;
+					visibility: hidden;
+					transition: all 0.3s ease; 
+					&:after {
+						content: '';
+						position: absolute;
+						width: 0;
+						height: 0;
+						top: -19px;
+						left: 50%;
+						border-width: 10px;
+						border-style: solid;
+						border-color: transparent transparent #fff transparent;
+						margin-left: -10px;
+					}
+	 				li {
+						float: initial;
+						display: block;
+						a {
+							text-align: center;
+							display: block;
+							color: $color-dark;
+							&:hover {
+								color: $color-primary;
+							} 
+						}
+					}
+				}
+
+			}
+		}
+		.box-login {
+			border-radius: 100px;
+			border: 1px solid #ffffff;
+			float: left;
+			position: relative;
+			margin-left: 100px;
+			top: 10px;
+			a {
+				display: inline-block;
+				position: relative;
+				padding: 8px 20px;
+				border-radius: 100px;
+				color: #ffffff;
+				font-weight: 600;
+				&.sign-up {
+					color: $color-primary;
+					background: #fff;
+				}
+			}
+		}
+ 	}
+
+ 	&.navigation-block {
+ 		background: $color-soft;
+ 		padding: 20px;
+
+ 		a.logo {
+ 			width: 160px;
+ 			background-image: url(../images/logocolor.png);
+ 		}
+
+ 		.menu {
+ 			ul {
+ 				li  {
+ 					a {
+ 						color: $color-dark;
+ 					}
+ 				}
+ 			}
+
+ 			.box-login {
+ 				border-color: $color-primary;
+ 				a {
+ 					color: $color-primary;
+ 					&.sign-up {
+ 						color: #ffffff;
+ 						background: $color-primary;
+ 					}
+ 				}
+ 			}
+ 		}
+ 	}
+
+}

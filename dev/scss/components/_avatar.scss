@@ -1,0 +1,23 @@
+.avatar{
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	border-radius: 100%;
+	background: #ddd;
+}
+
+
+.couple-avatar-paslon {
+	.avatar {
+		width: 80px;
+		height: 80px;
+		display: inline-block;
+		border: 3px solid #ffffff;
+		z-index: 2;
+		position: relative;
+		&:last-child {
+ 			left: -30px;
+			z-index: 1;
+		}
+	}
+}

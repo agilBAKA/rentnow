@@ -1,0 +1,112 @@
+.section-cities {
+	background: #e5f5fb;
+	min-height: 100vh;
+	
+	.bg-dark {
+		background: $color-dark;
+		overflow: hidden;
+		position: relative;
+
+		img {
+			opacity: .8;
+			transition:all 0.3s;
+		}
+
+		a {
+			display: block;
+			position: absolute;
+		    width: 100%;
+		    height: 100%;
+ 		    font-size: 24px;
+		    text-transform: uppercase;
+		    font-weight: 900;
+		    color: #ffffff;
+		    top: 0px;
+		    left: 0px;
+		    text-align: center;
+
+		    &.big-font {
+				font-size: 48px;
+		    }
+		}
+
+		label {
+		    position: absolute; 
+		    left: 50%;
+		    top: 50%;
+		    transform: translate(-50%,-3%);
+		    transition:all 0.3s;
+		    cursor: pointer;
+		    span {
+		    	display: block;
+		    	font-size: 14px;
+		    	transition:all 0.3s;
+		    	padding: 10px 15px;
+		    	transform: translateY(40px);
+		    	opacity: 0;
+		    	width: 100px;
+		    	margin: 0 auto;
+		    }
+		}
+
+		&:hover {
+			img {
+				opacity: 0.5;
+			}
+
+			a label {
+				transform: translate(-50%,-50%);
+					span {
+						opacity: 1;
+						transform: translateY(20px);
+				}
+			}
+		}
+	}
+
+
+	.big-city {
+		width: 615px;
+		height: 480px;
+		float: left;
+		padding-left: 10px;
+	}
+
+	.box-landspace-cities {
+		float: left;
+		padding-left: 20px;
+		.landscape-city {
+			width: 475px;
+			height: 230px;
+			margin-bottom: 20px;
+			&.last-child {	
+ 				margin-bottom: 0px;
+			}
+		}
+	}
+
+	.square-city {
+		float: left;
+		width: 298px;
+		height: 298px;
+		margin:0px 20px 20px 0px;
+	}
+
+	.more {
+		width: 156px;
+		height: 298px;
+		float: left;
+
+		a {
+			font-size: 16px;
+			label {
+				padding: 10px;
+				width: 120px;
+				 transform: translate(-50%,-50%);
+			}
+		}
+
+ 	}
+
+
+}
