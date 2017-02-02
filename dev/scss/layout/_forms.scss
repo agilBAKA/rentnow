@@ -28,7 +28,9 @@
 }
 
 form.default-form {
-	input{
+	input,
+	textarea,
+	select{
 		border-radius: 100px;
 		height: 40px;
 		padding: 8px 25px;
@@ -36,5 +38,28 @@ form.default-form {
 		outline: none;
 		border:0;
 		font-family: $font-base;
+		background: #f5f5f5;
+		margin-bottom: 20px;
+		transition:all 0.3s;
+	}
+	input {
+		height: 40px;
+	}
+
+	input[type="submit"] {
+		background: $color-primary;
+		cursor: pointer;
+		font-weight: 700;
+		box-shadow: 0px 7px 13px -6px rgba(37, 169, 224, 0.83);
+		&:hover {
+			background: darken($color-primary,5%);
+		}
+	}
+ 
+	textarea {
+		height: 200px;
+		border-radius: 20px;
+		resize:none;
+		padding-top: 20px;
 	}
 }

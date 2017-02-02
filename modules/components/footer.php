@@ -20,16 +20,16 @@
             <div class="col-md-5">
                 <ul class="link-footer">
                     <li>
-                        <a href="">About Us</a>
+                        <a href="about.php">About Us</a>
                     </li>
                     <li>
-                        <a href="">Contact Us</a>
+                        <a href="contact.php">Contact Us</a>
                     </li>
                     <li>
-                        <a href="">FAQ</a>
+                        <a href="faq.php">FAQ</a>
                     </li>
                     <li>
-                        <a href="">Terms of Use</a>
+                        <a href="legal.php">Terms of Use</a>
                     </li>
 
                 </ul>
