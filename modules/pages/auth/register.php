@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
      <?php require 'modules/components/head.php'; ?>
-     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css">
 </head>
 <body class="body-pages">
@@ -38,15 +38,15 @@
                         <div class="field">
                             <input type="text" name="birthdate" id="birthdate" placeholder="Birthdate" required>
                         </div>
-                        <div class="field bg-input">
+                        <div class="field bg-input gender">
                             <label>Gender</label>
                             <div class="box-radio">
                                 <div class="style-radio">
-                                    <input id="male" name="sex" type="radio">
+                                    <input id="male" name="gender" type="radio">
                                     <label>Male</label>
                                 </div>
                                 <div class="style-radio">
-                                    <input id="female" name="sex" type="radio">
+                                    <input id="female" name="gender" type="radio">
                                     <label >female</label>
                                 </div>
                             </div>
