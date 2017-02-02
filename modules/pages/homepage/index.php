@@ -1,31 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <?php require 'module/components/head.php'; ?>
+     <?php require 'modules/components/head.php'; ?>
 
 </head>
 <body>
-    <nav class="navigation">
-        <div class="container">
-            <a href="" class="logo"></a>
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="">Lease Your</a>
-                        <ul class="submenu">
-                            <li><a href="">Transportation</a></li>
-                            <li><a href="">House</a></li>
-                            <li><a href="">Tools</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="box-login">
-                    <a href="" class="sign-up">Sign Up</a>
-                    <a href="">Login</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+   <?php require 'modules/components/nav.php'; ?>
+   
     <header class="header-section">
         <div class="header-content">
             <h1>Justo Amet Lorem</h1>
@@ -159,54 +140,8 @@
             </div>
         </div>
     </section>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="box-social-media">
-                        <ul>
-                            <li>
-                                <a href=""><i class="zmdi zmdi-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href=""><i class="zmdi zmdi-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href=""><i class="zmdi zmdi-facebook"></i></a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <ul class="link-footer">
-                        <li>
-                            <a href="">About Us</a>
-                        </li>
-                        <li>
-                            <a href="">Contact Us</a>
-                        </li>
-                        <li>
-                            <a href="">FAQ</a>
-                        </li>
-                        <li>
-                            <a href="">Terms of Use</a>
-                        </li>
-
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <label for="subscribe"></label>
-                    <div class="box-subscribe">
-                        <form action="" class="default-form">
-                            <input type="text" placeholder="Email" name="subscribe">
-                            <input type="submit" value="subscribe" class="btn-primary">
-                        </form>
-                    </div>
-            </div>
-            </div>
-        </div>
-    </footer>
+    <?php require 'modules/components/footer.php'; ?>
+    
     <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {

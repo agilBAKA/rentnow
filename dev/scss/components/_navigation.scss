@@ -112,7 +112,10 @@ nav.navigation {
  			ul {
  				li  {
  					a {
- 						color: $color-dark;
+ 						color: $color-primary;
+ 						&:hover {
+ 							color: $color-dark;
+ 						}
  					}
  				}
  			}
@@ -130,4 +133,41 @@ nav.navigation {
  		}
  	}
 
+}
+
+
+.nav-pages {
+	nav.navigation {
+		background: $color-soft;
+ 		padding: 20px;
+
+ 		a.logo {
+ 			width: 160px;
+ 			background-image: url(../images/logocolor.png);
+ 		}
+
+ 		.menu {
+ 			ul {
+ 				li  {
+ 					a {
+ 						color: $color-primary;
+ 						&:hover {
+ 							color: $color-dark;
+ 						}
+ 					}
+ 				}
+ 			}
+
+ 			.box-login {
+ 				border-color: $color-primary;
+ 				a {
+ 					color: $color-primary;
+ 					&.sign-up {
+ 						color: #ffffff;
+ 						background: $color-primary;
+ 					}
+ 				}
+ 			}
+ 		}
+	}
 }

@@ -6,6 +6,9 @@ body {
 	background: #ffffff;
 	color: $color-secondary;
 	font-weight: 400;
+	&.body-pages {
+		padding-top: 100px;
+	}
 }
 
 
