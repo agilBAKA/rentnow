@@ -1,0 +1,54 @@
+.box-password {
+	padding-top: 40px;
+	form {
+		margin-left: 100px;
+		max-width: 230px;
+		a {
+			margin-top:-5px;
+		}
+		
+	}
+	.icon-pass {
+		font-size: 48px;
+		float: left;
+		color: $color-primary
+	}
+}
+
+.box-radio {
+	float: right;
+	margin-top: 2px;
+	.style-radio {
+		float: left;
+		padding-left: 20px;
+	}
+}
+
+.drop-photo {
+	width: 125px;
+	height: 125px;
+	border-radius: 4px;
+	background: $color-grey;
+	float: left;
+}
+
+.register {
+	float: right;
+	width: 230px;
+	margin-top: 50px;
+	.link-color {
+		display: block;
+		font-size: 13px;
+		margin-bottom: 15px;
+	}
+	.style-check {
+		margin-top: 10px;
+		float: left;
+	} 
+
+	.btn-primary {
+		float: right;
+		margin: 0px;
+		width: 130px;
+	}
+} 

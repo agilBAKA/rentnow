@@ -43,11 +43,12 @@ a {
 	margin: 20px 0px 40px;
 }
 
-a.link {
-	color: $color-link;
-	font-size: 11px;
+a.link-color {
+	color: $color-primary;
+	text-decoration: underline;
+	font-weight: 400;
 	&:hover {
-		color: $color-primary;
+		color: $color-dark;
 	}
 }
 

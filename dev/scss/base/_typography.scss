@@ -8,6 +8,13 @@ h1.title {
 	line-height: 2em;
 }
 
+
+h1.title-page{
+	font-size: 32px;
+	color: $color-dark;
+	font-weight: 100;
+}
+
 h2.heading {
 	font-size: 62px;
 	color: $color-grey;
@@ -21,15 +28,10 @@ h3.sub-heading {
 	color: $color-grey;
 }
 
-p { 
-	line-height: 28px;
-	padding-bottom: 20px;
-}
-
-h1.title-page{
-	font-size: 32px;
-	color: $color-dark;
-	font-weight: 100;
+h4 {
+	font-weight: 700;
+ 	margin-bottom: 20px;
+ 	font-size: 16px;
 }
 
 h5 {
@@ -37,6 +39,12 @@ h5 {
 	line-height: 32px;
 	margin-bottom: 20px;
 }
+
+p { 
+	line-height: 28px;
+	padding-bottom: 20px;
+}
+
 
 
 label.status {
