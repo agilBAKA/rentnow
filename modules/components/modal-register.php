@@ -3,13 +3,13 @@
 	<div class="content-modal">
 		<div class="content-modal-inner">
 			<div class="box-register">
-				<button class="btn-facebook btn-reg full">
+				<a href="" class="btn-facebook btn-reg full">
 					<i class="zmdi zmdi-facebook"></i> Continue with Facebook
-				</button>
+				</a>
 				<label class="or"><span>or</span></label>
-				<button class="btn-mail btn-reg full">
+				<a href="register.php" class="btn-mail btn-reg full">
 					<i class="zmdi zmdi-email"></i> Continue with email
-				</button>
+				</a>
 				<p class="info">
 					Phasellus varius, justo in volutpat accumsan, dui purus scelerisque urna, sed aliquet ligula mauris et lorem. Nullam at interdum velit. Fusce aliquet orci dolor, eget suscipit magna eleifend eu.
 				</p>

@@ -7,6 +7,7 @@
 <body> 
    <?php require 'modules/components/nav.php'; ?>
    <?php require 'modules/components/modal-register.php'; ?>
+   <?php require 'modules/components/modal-subscribe.php'; ?>
    
     <header class="header-section">
         <div class="header-content">
@@ -159,6 +160,13 @@
             $('#register').on('click', function(){
                 $('#modal-register').addClass('modal-show');
                 $('body').addClass('no-scroll');
+            });
+
+            $('#btn-subscribe').on('click', function(e){
+                e.preventDefault();
+                $('#modal-subscribe').addClass('modal-show');
+                $('body').addClass('no-scroll');
+                return false;
             });
 
             $('.overlay').on('click', function(){

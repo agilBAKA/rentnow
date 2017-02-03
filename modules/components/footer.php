@@ -39,7 +39,7 @@
                 <div class="box-subscribe">
                     <form action="" class="default-form">
                         <input type="text" placeholder="Email" name="subscribe">
-                        <input type="submit" value="subscribe" class="btn-primary">
+                        <input type="submit" value="subscribe" class="btn-primary" id="btn-subscribe">
                     </form>
                 </div>
             </div>

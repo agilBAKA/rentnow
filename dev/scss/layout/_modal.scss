@@ -19,18 +19,20 @@
 	}
 
 	.content-modal {
-		position: absolute;
-		min-height: 200px;
-		min-width: 300px;
+		position: absolute; 
 		top: 50%;
 		left: 50%;
+		max-width: 640px;
+		width: 100%;
 		z-index: 100;
 		transform:translate(-50%,-50%)scale(0,0);
 		opacity:0;
 		transition: 0.5s scale 0.8s, 0.7s opacity 0.9s;
 		.content-modal-inner {
+			width: 100%;
 			background: #fff;
-			padding: 50px;
+			padding: 50px 80px 60px 80px;
+			overflow: hidden;
 			border-radius: 50px;
 		}
 	}
@@ -56,9 +58,15 @@
 .box-register {
 	max-width: 500px;
 
+	a.btn-reg {
+		margin-top: 0px;
+		line-height: 42px;
+	}
+	
 	.or {
 		display: block;
  		margin-top: 20px;
+ 		margin-bottom: 20px;
 		text-align: center;
 		position: relative;
 		font-size: 16px;
@@ -100,5 +108,15 @@
 				color: #fff;
 			}
 		}
+	}
+}
+
+
+.title-modal {
+	h4 {
+		font-weight: 400;
+		font-size: 28px;
+		display: inline-block;
+		margin-right: 10px;
 	}
 }

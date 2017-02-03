@@ -55,7 +55,7 @@
                             <input type="text" name="phone" placeholder="Phone number" required>
                         </div>
                         <div class="drop-photo">
-                            
+                             <input type="file" class="droparea avatar" name="xfile" data-post="modules/components/upload.php" data-width="364" data-height="214" data-crop="true"/>
                         </div>
                         <div class="field register">
                             
@@ -78,11 +78,38 @@
 
     <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="dist/js/vendor/droparea.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
              $('#birthdate').datepicker({
                  autoclose: true
              });
+
+             $('.droparea').droparea({
+                'instructions': '',
+                'init' : function(result){
+                    //console.log('custom init',result);
+                },
+                'start' : function(area){
+                    area.find('.error').remove(); 
+                },
+                'error' : function(result, input, area){
+                    $('<div class="error">').html(result.error).prependTo(area); 
+                    return 0;
+                    //console.log('custom error',result.error);
+                },
+                'complete' : function(result, file, input, area){
+                    if((/image/i).test(file.type)){
+                        area.find('img').remove();
+                        //area.data('value',result.filename);
+                        area.append($('<img>',{
+                            'src': result.path + result.filename + '?' + Math.random(),
+                            'class' : 'img-cover'
+                        }));
+                    } 
+                    //console.log('custom complete',result);
+                }
+            });
         })
     </script>
     
