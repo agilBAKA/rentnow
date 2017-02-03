@@ -4,8 +4,9 @@
      <?php require 'modules/components/head.php'; ?>
 
 </head>
-<body>
+<body> 
    <?php require 'modules/components/nav.php'; ?>
+   <?php require 'modules/components/modal-register.php'; ?>
    
     <header class="header-section">
         <div class="header-content">
@@ -153,7 +154,17 @@
                 }else {
                     $('nav.navigation').removeClass('navigation-block');
                 }
-            })
+            });
+
+            $('#register').on('click', function(){
+                $('#modal-register').addClass('modal-show');
+                $('body').addClass('no-scroll');
+            });
+
+            $('.overlay').on('click', function(){
+                $('#modal-register').removeClass('modal-show');
+                $('body').removeClass('no-scroll');
+            });
         })
     </script>
 </body>

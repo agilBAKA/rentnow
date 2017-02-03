@@ -14,7 +14,7 @@ footer {
  				display: block;
  				color: #fff;
  				font-size: 13px;
- 				font-weight: 600;
+ 				font-weight: 500;
  				&:hover {
  					color: $color-primary;
  				}
@@ -34,6 +34,7 @@ footer {
  			cursor: pointer;
  			margin-top: 0;
  			font-weight: 700;
+ 			box-shadow: none;
  		}
  	}
 }

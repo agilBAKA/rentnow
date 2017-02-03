@@ -9,6 +9,10 @@ body {
 	&.body-pages {
 		padding-top: 100px;
 	}
+
+	&.no-scroll {
+		overflow: hidden;
+	}
 }
 
 
