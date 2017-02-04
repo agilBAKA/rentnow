@@ -218,3 +218,25 @@ POST:Array
     [width] => 364
 )
 
+=== 2017-02-03 14:15:22 ===============================
+FILES:Array
+(
+    [xfile] => Array
+        (
+            [name] => pexels-photo-165907.jpeg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE592.tmp
+            [error] => 0
+            [size] => 22626
+        )
+
+)
+
+POST:Array
+(
+    [post] => modules/components/upload.php
+    [crop] => true
+    [height] => 214
+    [width] => 364
+)
+

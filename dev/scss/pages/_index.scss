@@ -1,4 +1,4 @@
-.section-cities {
+.section-destination {
 	background: #e5f5fb;
 	min-height: 100vh;
 	
@@ -41,8 +41,7 @@
 		    	display: block;
 		    	font-size: 14px;
 		    	transition:all 0.3s;
-		    	padding: 10px 15px;
-		    	transform: translateY(40px);
+ 		    	transform: translateY(40px);
 		    	opacity: 0;
 		    	width: 100px;
 		    	margin: 0 auto;
@@ -65,17 +64,17 @@
 	}
 
 
-	.big-city {
+	.big-destination {
 		width: 615px;
 		height: 480px;
 		float: left;
 		padding-left: 10px;
 	}
 
-	.box-landspace-cities {
+	.box-landspace-destination {
 		float: left;
 		padding-left: 20px;
-		.landscape-city {
+		.landscape-destination {
 			width: 475px;
 			height: 230px;
 			margin-bottom: 20px;
@@ -85,7 +84,7 @@
 		}
 	}
 
-	.square-city {
+	.square-destination {
 		float: left;
 		width: 298px;
 		height: 298px;

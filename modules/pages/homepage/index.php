@@ -66,15 +66,15 @@
             </div>
         </div>
     </section>
-    <section class="section section-cities">
+    <section class="section section-destination">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                    <h2 class="heading">Mauris nec augue</h2> 
                 </div>
                 <div class="col-md-12">
-                    <div class="catalogue-cities">
-                        <div class="bg-dark big-city">
+                    <div class="catalogue-destination">
+                        <div class="bg-dark big-destination">
                             <a href="" class="big-font">
                              <img src="https://images.pexels.com/photos/50632/pexels-photo-50632.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
                              <label>
@@ -83,8 +83,8 @@
                              </label>
                             </a>
                         </div>
-                        <div class="box-landspace-cities">
-                            <div class="bg-dark landscape-city">
+                        <div class="box-landspace-destination">
+                            <div class="bg-dark landscape-destination">
                                 <a href="" class="big-font">
                                     <img src="https://images.pexels.com/photos/5463/people-eiffel-tower-france-landmark.jpg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
                                     <label>
@@ -93,7 +93,7 @@
                                     </label>
                                 </a>
                             </div>
-                            <div class="bg-dark landscape-city">
+                            <div class="bg-dark landscape-destination">
                                 <a href="" class="big-font">
                                     <img src="https://images.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
                                     <label>
@@ -104,7 +104,7 @@
                             </div>
                         </div>
                         <div class="clearfix"></div>
-                        <div class="bg-dark square-city">
+                        <div class="bg-dark square-destination">
                             <a href="">
                                 <img src="https://images.pexels.com/photos/709/nature-mountain-volcano-asia.jpg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
                                 <label>
@@ -113,7 +113,7 @@
                                 </label>   
                             </a>
                         </div>
-                        <div class="bg-dark square-city">
+                        <div class="bg-dark square-destination">
                             <a href="">
                                 <img src="https://cache-graphicslib.viator.com/graphicslib/thumbs674x446/2484/SITours/corcovado-mountain-and-christ-redeemer-statue-half-day-tour-in-rio-de-janeiro-128058.jpg" alt="" class="img-cover">
                                 <label>
@@ -122,7 +122,7 @@
                                 </label> 
                             </a>
                         </div>
-                        <div class="bg-dark square-city">
+                        <div class="bg-dark square-destination">
                             <a href="">
                                 <img src="https://images.pexels.com/photos/27954/pexels-photo-27954.jpg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
                                 <label>

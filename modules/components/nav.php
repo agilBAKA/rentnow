@@ -9,12 +9,19 @@
                 <li>
                     <a href="">Browse</a>
                     <ul class="submenu">
-                        <li><a href="">Recommended</a></li>
+                        <li><a href="recommended.php">Recommended</a></li>
                         <li><a href="">Search</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="">profile</a>
+                    <ul class="submenu">
+                        <li><a href="">Message</a></li>
+                        <li><a href="">Notification</a></li>
+                        <li><a href="">Edit Profile</a></li>
+                        <li><a href="">Setting</a></li>
+                        <li><a href="">Sign Out</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="">Lease Your</a>
