@@ -59,6 +59,9 @@ a {
 
 				&.next {
 					font-weight: 600;
+					color: $color-primary;
+					border-width: 2px;
+					height: auto;
 					&:hover {
 						color: #ffffff;
 					}
