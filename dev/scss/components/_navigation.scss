@@ -35,6 +35,17 @@ nav.navigation {
 					font-size: 16px;
 					color: #ffffff;
 					font-weight: 400;
+					position: relative;
+ 
+					.bullet-notif {
+						width: 6px;
+						height: 6px;
+ 						background: red;
+ 						border-radius: 100%;
+  						top: 15px;
+ 						right: 8px;
+ 						position: absolute;
+					}
 				}
 
 				ul.submenu {

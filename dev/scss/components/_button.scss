@@ -5,9 +5,14 @@
 	display: inline-block;
 	margin-top: 15px;
 	height: 40px;
+	font-family: $font-base;
+	cursor:pointer;
 	&.full {
 		width: 100%;
 		text-align: center;
+	}
+	&:focus {
+		outline: none;
 	}
 
 }
@@ -91,11 +96,12 @@
 
 
 .btn-big {
-	padding: 20px 30px;
-	font-size: 1.2em;
+	padding: 14px 30px;
+	font-size: 21px;
 	width: 300px;
 	border-width: 2px;
 	height: auto;
+	font-weight: 600;
 }
 .btn-small {
 	padding: 5px 8px;

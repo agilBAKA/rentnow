@@ -10,14 +10,14 @@
                     <a href="">Browse</a>
                     <ul class="submenu">
                         <li><a href="recommended.php">Recommended</a></li>
-                        <li><a href="">Search</a></li>
+                        <li><a href="search.php">Search</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="">profile</a>
+                    <a href="">profile <span class="bullet-notif"></span></a>
                     <ul class="submenu">
-                        <li><a href="">Message</a></li>
-                        <li><a href="">Notification</a></li>
+                        <li><a href="">Message <span class="bullet-notif"></span></a></li>
+                        <li><a href="">Notification <span class="bullet-notif"></span></a></li>
                         <li><a href="">Edit Profile</a></li>
                         <li><a href="">Setting</a></li>
                         <li><a href="">Sign Out</a></li>

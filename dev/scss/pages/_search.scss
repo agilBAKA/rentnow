@@ -1,0 +1,15 @@
+.field-search {
+	border-bottom: 2px solid $color-primary;
+	margin-bottom: 20px;
+	input {
+		font-size: 24px;
+		font-weight: 300;
+		font-family: $font-base;
+		width: 100%;
+		border: 0;
+		padding:15px 0px;
+		&:focus {
+			outline: none;
+		}
+	}
+}
