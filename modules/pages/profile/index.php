@@ -63,11 +63,119 @@
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <div class="profile-wishlist">
+                        <div class="content-profile">
                             <h2>Wish List</h2>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="card-profile"></div>
+                                    <div class="card-profile">
+                                        <figure class="card-profile-cover">
+                                            <a href="">
+                                                <img src="https://images.pexels.com/photos/6526/sea-beach-holiday-vacation.jpg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                            </a>
+                                        </figure>
+                                        <a href="">Suspendisse eu justo</a>
+                                        <ul>
+                                            <li><span>Private room </span></li>
+                                            <li><span>2 guests</span></li>
+                                            <li>
+                                                <div class="rating">
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star "></i>
+                                                </div>
+                                            </li>
+                                            <li><span>30 reviews </span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-profile">
+                                        <figure class="card-profile-cover">
+                                            <a href="">
+                                                <img src="https://images.pexels.com/photos/6526/sea-beach-holiday-vacation.jpg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                            </a>
+                                        </figure>
+                                        <a href="">Suspendisse eu justo</a>
+                                        <ul>
+                                            <li><span>Private room </span></li>
+                                            <li><span>2 guests</span></li>
+                                            <li>
+                                                <div class="rating">
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star "></i>
+                                                </div>
+                                            </li>
+                                            <li><span>30 reviews </span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination">
+                                <ul>
+                                    <li><a href="" class="current">1</a></li>
+                                    <li><a href="">2</a></li>
+                                    <li><a href="">3</a></li>
+                                    <li><a href="">4</a></li>
+                                    <li><a href="">5</a></li>
+                                    <li><a href="" class="next btn-primary-o">Next Page</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                         <div class="content-profile">
+                            <h2>History</h2>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card-profile">
+                                        <figure class="card-profile-cover">
+                                            <a href="">
+                                                <img src="https://images.pexels.com/photos/6526/sea-beach-holiday-vacation.jpg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                            </a>
+                                        </figure>
+                                        <a href="">Suspendisse eu justo</a>
+                                        <ul>
+                                            <li><span>Private room </span></li>
+                                            <li><span>2 guests</span></li>
+                                            <li>
+                                                <div class="rating">
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star "></i>
+                                                </div>
+                                            </li>
+                                            <li><span>30 reviews </span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-profile">
+                                        <figure class="card-profile-cover">
+                                            <a href="">
+                                                <img src="https://images.pexels.com/photos/6526/sea-beach-holiday-vacation.jpg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                            </a>
+                                        </figure>
+                                        <a href="">Suspendisse eu justo</a>
+                                        <ul>
+                                            <li><span>Private room </span></li>
+                                            <li><span>2 guests</span></li>
+                                            <li>
+                                                <div class="rating">
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star rated"></i>
+                                                    <i class="zmdi zmdi-star "></i>
+                                                </div>
+                                            </li>
+                                            <li><span>30 reviews </span></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <div class="pagination">

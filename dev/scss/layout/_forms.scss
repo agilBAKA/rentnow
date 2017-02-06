@@ -39,6 +39,10 @@
 		border-radius: 20px;
 		resize:none;
 		padding-top: 20px;
+
+		&.autoheight {
+			height: auto;
+		}
 	}
 }
 
