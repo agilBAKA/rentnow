@@ -1,6 +1,6 @@
 header.header-section {
 	width: 100%;
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	justify-content:center;
 	align-items:center;
@@ -19,12 +19,141 @@ header.header-section {
 		z-index: 1;
 	}
 	.header-content {
+		width: 100%;
+		overflow: hidden;
+		display: block;
 		z-index: 2;
 		position: relative;
+		text-align: center;
 		h1 {
-			color: #ffffff;
+ 			color: #ffffff;
 			font-weight: 900;
 			font-size: 72px;
+			width: 100%;
+			margin-bottom: 30px;
+		}
+		.box-search {
+			width: 100%;
+			form {
+				width: 100%;
+				border: 2px solid #ffffff;
+				display: flex;
+				border-radius: 100px;
+				color: #ffffff;
+				padding: 0px 20px 0px 85px;
+				.field {
+					padding:10px 20px; 
+					text-align: left;
+					label {
+						display: block;
+					}
+					border-right: 2px solid #ffffff;
+					input {
+						background: transparent;
+						border: none;
+						color: #ffffff;
+						font-family: $font-base;
+						width: 100%;
+						padding-top: 5px;
+						font-size: 18px;
+						font-weight: 600;
+						&:focus {
+							outline: none;
+						}
+
+						&#where {
+							position: relative;
+						}
+					}
+
+					button {
+						color: #ffffff;
+						font-size: 31px;
+						background: transparent;
+						border:none;
+						cursor: pointer;
+						padding: 7px 0px 0px 14px;
+					}
+
+					&:first-child {
+						width: 35%;
+					}
+
+					&:nth-of-type(3),
+					&:last-child {
+						border-right: 0px;
+					}
+				}
+			}
+		} 
+	}
+
+}
+
+.destination-drop{
+	position: absolute;
+	top: 0;
+	background-color: white;
+	z-index: 999;
+	display: none;
+	width: 400px;
+	transform: translate(-100px,12px);
+
+	.close-drop{
+		position: absolute;
+		right: 15px;
+		top: 5px;
+		font-weight: 700;
+		line-height: normal;
+		color: #666;
+	}
+
+	&:after {
+		content: '';
+	    position: absolute;
+	    top: -20px;
+	    left: 50%;
+	    margin-left: -10px;
+	    width: 0;
+	    height: 0;
+	    border-width: 10px;
+	    border-style: solid;
+	    border-color: transparent transparent #ffffff transparent;
+	}
+ 
+	table{
+		width: 100%;
+		table-layout: fixed;
+		border: 1px solid #ffffff;
+		padding: 10px;
+		border-radius: 0px 0px 50px 50px;
+		text-transform: uppercase;
+		td:not(:last-child){
+			width: 50%;
+			border-right: 1px solid #ffffff;
+			vertical-align: top;
+			padding: 10px 0;
+		}
+
+		.group-title,a{
+			display: block;
+			padding: 5px 10px;
+			font-size: 11px;
+
+		}
+		.group-title{
+			color: $color-dark;
+			font-weight: 700;
+			font-size: 13px;
+			padding: 15px 10px 5px 10px;
+		}
+		.destination{
+			color: $color-dark;
+
+			&:hover{
+				color: $color-primary;
+				cursor: pointer;
+			}
 		}
 	}
 }

@@ -6,12 +6,15 @@
 </head>
 <body> 
    <?php require 'modules/components/nav.php'; ?>
-   <?php require 'modules/components/modal-register.php'; ?>
-   <?php require 'modules/components/modal-subscribe.php'; ?>
    
     <header class="header-section">
         <div class="header-content">
-            <h1>Justo Amet Lorem</h1>
+            <div class="container">
+                <div class="row">
+                    <h1>Justo Amet Lorem</h1>
+                    <?php require 'modules/pages/homepage/form.php'; ?>
+                </div>
+            </div>
         </div>
     </header>
     <section class="section section-stories">
@@ -143,6 +146,40 @@
         </div>
     </section>
     <?php require 'modules/components/footer.php'; ?>
+    <?php require 'modules/components/modal-register.php'; ?>
+    <?php require 'modules/components/modal-subscribe.php'; ?>
+
+    <div class="destination-drop">
+    <a href="#" class="close-drop"><i class="zmdi zmdi-close-circle"></i></a>
+    <table>
+        <tr>
+            <td>
+                <span class="group-title">DKI Jakarta</span>
+                <a class="destination" data-value="Jakarta Barat">Jakarta Barat</a>
+                <a class="destination" data-value="Jakarta Pusat">Jakarta Pusat</a>
+                <a class="destination" data-value="Jakarta Timur">Jakarta Timur</a>
+                <a class="destination" data-value="Jakarta Selatan">Jakarta Selatan</a>
+                <a class="destination" data-value="Jakarta Utara">Jakarta Utara</a>
+                <br>
+                <span class="group-title">Bali</span>
+                <a class="destination" data-value="Denpasar">Denpasar</a>
+                <a class="destination" data-value="Jimbaran">Jimbaran</a>
+                <a class="destination" data-value="Kuta">Kuta</a>
+                
+            </td>
+            <td>
+                <span class="group-title">Yogyakarta</span>
+                <a class="destination" data-value="Yogyakarta">Yogyakarta</a>
+                <span class="group-title">Jawa Barat</span>
+                <a class="destination" data-value="Bandung">Bandung</a>
+                <a class="destination" data-value="Bekasi">Bekasi</a>
+                <a class="destination" data-value="Bogor">Bogor</a>
+                <span class="group-title">Jawa Timur</span>
+                <a class="destination" data-value="Malang">Malang</a>
+             </td>
+         </tr>
+    </div>
+</div>
     
     <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript">
@@ -156,6 +193,33 @@
                     $('nav.navigation').removeClass('navigation-block');
                 }
             });
+
+            $("#where").on( "click", function(){
+                var pos = $(this).offset();
+
+                $("#where.active").removeClass("active");
+                $(this).addClass("active");
+                $(".destination-drop").css({
+                    "display": "block",
+                    "left": pos.left,
+                    "top": pos.top + $(this).innerHeight()
+                });
+
+                el = $(this);
+                $(".destination-drop a").hover(function(){
+                    var dataVal = $(this).data("value");
+                    $("#where.active").val( dataVal );
+                });
+                $(".destination-drop a").click(function(){
+                    var dataVal = $(this).data("value");
+                    $("#where.active").val( dataVal );
+                    $(".destination-drop").hide();
+                });
+
+            });
+            $(".destination-drop a").on("click", function(){
+                $(".destination-drop").hide();
+            })
 
             $('#register').on('click', function(){
                 $('#modal-register').addClass('modal-show');

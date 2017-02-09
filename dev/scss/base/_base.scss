@@ -92,3 +92,26 @@ a {
 .bg-grey {
 	background: $color-soft;
 }
+
+.box-social-media {
+	ul {
+		padding: 20px 0px;
+		li {
+			display: inline-block;
+			a {
+				display: block;
+				width: 30px;
+				height: 30px;
+				color: #ffffff;
+				background: transparent;
+				border-radius: 100%;
+				text-align: center;
+				line-height: 30px;
+				margin-right: 10px;
+				&:hover {
+					background: $color-primary;
+				}
+			}
+		}
+	}
+}
