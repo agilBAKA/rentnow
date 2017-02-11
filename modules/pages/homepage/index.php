@@ -30,7 +30,7 @@
                             <div class="col-md-8">
                                 <figure class="cover-stories">
                                     <a href="">
-                                        <img src="https://images.pexels.com/photos/175979/pexels-photo-175979.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="">
+                                        <img src="dist/images/stories.jpg" alt="">
                                     </a>
                                 </figure>
                             </div>
@@ -51,7 +51,7 @@
                             <div class="col-md-8">
                                 <figure class="cover-stories">
                                     <a href="">
-                                        <img src="https://images.pexels.com/photos/6553/person-holiday-vacation-woman.jpg?w=940&h=650&auto=compress&cs=tinysrgb" alt="">
+                                        <img src="dist/images/stories.jpg" alt="">
                                     </a>
                                 </figure>
                             </div>
@@ -79,7 +79,7 @@
                     <div class="catalogue-destination">
                         <div class="bg-dark big-destination">
                             <a href="" class="big-font">
-                             <img src="https://images.pexels.com/photos/50632/pexels-photo-50632.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                             <img src="dist/images/destination/big-pict.jpg" alt="" class="img-cover">
                              <label>
                                 london
                                 <span class="btn-white-o">explore</span>   
@@ -89,7 +89,7 @@
                         <div class="box-landspace-destination">
                             <div class="bg-dark landscape-destination">
                                 <a href="" class="big-font">
-                                    <img src="https://images.pexels.com/photos/5463/people-eiffel-tower-france-landmark.jpg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                    <img src="dist/images/destination/landscape-pict.jpg" alt="" class="img-cover">
                                     <label>
                                         france
                                         <span class="btn-white-o">explore</span>   
@@ -98,7 +98,7 @@
                             </div>
                             <div class="bg-dark landscape-destination">
                                 <a href="" class="big-font">
-                                    <img src="https://images.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                    <img src="dist/images/destination/landscape-pict.jpg" alt="" class="img-cover">
                                     <label>
                                         US
                                         <span class="btn-white-o">explore</span>
@@ -109,7 +109,7 @@
                         <div class="clearfix"></div>
                         <div class="bg-dark square-destination">
                             <a href="">
-                                <img src="https://images.pexels.com/photos/709/nature-mountain-volcano-asia.jpg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                <img src="dist/images/destination/square-pict.jpg" alt="" class="img-cover">
                                 <label>
                                     Indonesia
                                     <span class="btn-white-o">explore</span>
@@ -118,7 +118,7 @@
                         </div>
                         <div class="bg-dark square-destination">
                             <a href="">
-                                <img src="https://cache-graphicslib.viator.com/graphicslib/thumbs674x446/2484/SITours/corcovado-mountain-and-christ-redeemer-statue-half-day-tour-in-rio-de-janeiro-128058.jpg" alt="" class="img-cover">
+                                <img src="dist/images/destination/square-pict.jpg" alt="" class="img-cover">
                                 <label>
                                     Brazil
                                     <span class="btn-white-o">explore</span>  
@@ -127,7 +127,7 @@
                         </div>
                         <div class="bg-dark square-destination">
                             <a href="">
-                                <img src="https://images.pexels.com/photos/27954/pexels-photo-27954.jpg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                <img src="dist/images/destination/square-pict.jpg" alt="" class="img-cover">
                                 <label>
                                     Italy
                                     <span class="btn-white-o">explore</span>

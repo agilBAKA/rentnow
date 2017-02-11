@@ -37,4 +37,66 @@ footer {
  			box-shadow: none;
  		}
  	}
+
+ 	.box-social-media {
+		ul {
+			padding: 20px 0px;
+			li {
+				display: inline-block;
+				a {
+					display: block;
+					width: 30px;
+					height: 30px;
+					color: #ffffff;
+					background: transparent;
+					border-radius: 100%;
+					text-align: center;
+					line-height: 30px;
+					margin-right: 10px;
+					&:hover {
+						background: $color-primary;
+					}
+				}
+			}
+		}
+	}
+
+ 	@include respond-to(handhelds) {
+ 		padding: 20px 0px;
+ 		.box-social-media {
+			ul {
+				padding: 0px;
+				text-align: center;
+				li {
+					display: inline-block;
+					a {
+ 						width: 40px;
+						height: 40px; 
+						border: 1px solid #fff; 
+						line-height: 40px;
+						margin: 0px 5px;
+ 					}
+				}
+			}
+		}
+ 		.link-footer {
+			padding: 20px 0px;
+			text-align: center;
+			li {
+				display: block;
+				a {
+					padding: 15px 0px;
+				}
+			}
+ 		}
+
+ 		.box-subscribe {
+ 			margin-bottom: 0px;
+ 			form {
+ 				input {
+ 					margin: 0px;
+ 				}
+ 			}
+ 		}
+ 	}
 }

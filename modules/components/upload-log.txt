@@ -240,3 +240,25 @@ POST:Array
     [width] => 364
 )
 
+=== 2017-02-11 09:59:18 ===============================
+FILES:Array
+(
+    [xfile] => Array
+        (
+            [name] => image_2017-02-03_20-57-20.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php301F.tmp
+            [error] => 0
+            [size] => 777835
+        )
+
+)
+
+POST:Array
+(
+    [post] => modules/components/upload.php
+    [crop] => true
+    [height] => 214
+    [width] => 364
+)
+

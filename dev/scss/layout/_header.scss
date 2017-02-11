@@ -88,6 +88,44 @@ header.header-section {
 		} 
 	}
 
+	@include respond-to(handhelds) {
+
+		.header-content {
+			padding: 0px 20px;
+			h1 {
+				font-size: 32px;
+			}
+
+			.box-search {
+				form {
+					display: block;
+					border-radius: 10px;
+					padding: 0px;
+					border-width: 1px;
+					overflow: hidden;
+					.field {
+						width: 100%;
+						border-right: 0px;
+						border-bottom: 1px solid #fff;
+						&:first-child {
+							width: 100%;
+						}
+						&:last-child {
+							background: #fff;
+							border-bottom: 0px;
+							button {
+								width: 100%;
+								color: $color-dark;
+							}
+						}
+
+					}
+				}
+			}
+			
+		}
+	}
+
 }
 
 .destination-drop{
@@ -96,7 +134,9 @@ header.header-section {
 	background-color: white;
 	z-index: 999;
 	display: none;
-	width: 400px;
+	max-width: 400px;
+	width: 100%;
+
 	transform: translate(-100px,12px);
 
 	.close-drop{
