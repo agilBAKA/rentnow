@@ -23,7 +23,7 @@
 				font-size: 38px;
 			}
 			span {
-				display: block;
+				display: inline-block;
 				font-weight: 600;
 				padding-top: 20px;
 				color: $color-grey;
@@ -67,6 +67,7 @@
 			}
 		}
 	}
+
 	h2 {
 		font-size: 16px;
 		font-weight: 700;
@@ -143,6 +144,94 @@
 		overflow: hidden;
 		padding-bottom: 30px;
 	}
+
+	@include respond-to(handhelds) {
+		header.header-profile {
+			border-bottom: 1px solid $color-grey;
+			overflow: hidden;
+			margin-bottom:40px;
+			.big-avatar {
+				float: inherit;
+				width: 280px;
+				height: 280px;
+				margin: 0 auto;
+				img {
+					border-radius: 20px 20px 0px 0px;
+				}
+			}
+
+			.header-content {
+				float: inherit;
+				width: 100%;
+				margin-left: 0px;
+				padding-top: 20px;
+				text-align: center;
+		
+				h1 {
+					font-size: 24px;
+					margin-bottom: 15px;
+				}
+				span {
+					display: block;
+					font-weight: 600;
+					padding-top: 10px;
+					color: $color-grey;
+				}
+				p {
+					padding-top: 30px;
+					font-weight: 500;
+					color: $color-dark;
+				}
+
+				.wallet {
+					text-align: left;
+					padding-bottom: 20px;
+  					label {
+						position: relative;
+						top: 5px;
+					}
+					.box-balance {
+						 display: block;
+						 margin-top: 20px;
+						 float: inherit;
+						 text-align: center;
+					}
+					button {
+						float: right;
+						font-size: 28px;
+						background: transparent;
+						border: 0;
+						color: $color-primary;
+						padding-left: 10px;
+						position: relative;
+						top: 5px;
+						cursor: pointer;
+						&:focus {
+							outline: none;
+						}
+					}
+
+				}
+			}
+		}
+		.box-verifications {
+			margin-bottom: 30px;
+		ul {
+			li {
+				max-width: 100%;
+			}
+		}
+
+		a {
+			color: $color-primary;
+			font-style: italic;
+			font-weight: 400;
+			&:hover {
+				color: $color-dark;
+			}
+		}
+	}
+	}
 }
 
 .sidebar-menu {
@@ -212,6 +301,16 @@
 
 
 	}
+
+	@include respond-to(handhelds) {
+		li.unread {
+				padding-left: 20px;
+
+				.bullet-notif {
+ 					left: 0px;
+ 				}
+			}
+		}
 }
 
 
@@ -258,6 +357,15 @@
 			}
  		}
  	}
+
+	@include respond-to(handhelds) {
+		li.list-message {
+			&.unread {
+				padding-left: 20px;
+			}
+		}
+	}
+
 }
 
 .box-message {
@@ -320,6 +428,23 @@
  			}
  		}
 
+	}
+
+	@include respond-to(handhelds) {
+		.conversation {
+			.sender { 
+				max-width: 100%;
+				padding-right: 55px;
+	 			.avatar-sender {
+					width: 40px;
+					height: 40px;
+	 				bottom: 0px;
+					right: 0px;
+	 
+				}
+
+			}
+		}
 	}
 	
 }

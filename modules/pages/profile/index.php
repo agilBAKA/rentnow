@@ -18,7 +18,8 @@
                          </figure>
                          <div class="header-content">
                              <h1>Hey, I’m Taylor!</h1>
-                             <span>Jakarta, Indonesia · Member since July 2015</span>
+                             <span>Jakarta, Indonesia</span>
+                             <span>· Member since July 2015</span>
                              <p>
                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nihil praesentium nisi eaque illum voluptate temporibus veniam commodi corrupti odio aut aliquam cupiditate sequi eius, eligendi labore laudantium provident animi.
                              </p>
@@ -70,7 +71,7 @@
                                     <div class="card-profile">
                                         <figure class="card-profile-cover">
                                             <a href="">
-                                                <img src="https://images.pexels.com/photos/6526/sea-beach-holiday-vacation.jpg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                                <img src="dist/images/search-pict.jpg" alt="">
                                             </a>
                                         </figure>
                                         <a href="">Suspendisse eu justo</a>
@@ -94,7 +95,7 @@
                                     <div class="card-profile">
                                         <figure class="card-profile-cover">
                                             <a href="">
-                                                <img src="https://images.pexels.com/photos/6526/sea-beach-holiday-vacation.jpg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                                <img src="dist/images/search-pict.jpg" alt="">
                                             </a>
                                         </figure>
                                         <a href="">Suspendisse eu justo</a>
@@ -133,7 +134,7 @@
                                     <div class="card-profile">
                                         <figure class="card-profile-cover">
                                             <a href="">
-                                                <img src="https://images.pexels.com/photos/6526/sea-beach-holiday-vacation.jpg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                                <img src="dist/images/search-pict.jpg" alt="">
                                             </a>
                                         </figure>
                                         <a href="">Suspendisse eu justo</a>
@@ -157,7 +158,7 @@
                                     <div class="card-profile">
                                         <figure class="card-profile-cover">
                                             <a href="">
-                                                <img src="https://images.pexels.com/photos/6526/sea-beach-holiday-vacation.jpg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                                <img src="dist/images/search-pict.jpg" alt="">
                                             </a>
                                         </figure>
                                         <a href="">Suspendisse eu justo</a>
@@ -197,6 +198,7 @@
     
     <?php require 'modules/components/footer.php'; ?>
     
-    
+    <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="dist/js/main.js"></script>
 </body>
 </html>

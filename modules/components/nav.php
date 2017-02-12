@@ -1,30 +1,35 @@
- <nav class="navigation">
+<nav class="navigation">
     <div class="container">
         <a href="index.php" class="logo"></a>
+        <button id="burger" class="menu-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
         <div class="menu">
             <ul>
                 <li>
                     <a href="">Home</a>
                 </li>
                 <li>
-                    <a href="">Browse</a>
+                    <a href="#">Browse<i class="zmdi zmdi-chevron-down"></i></a>
                     <ul class="submenu">
                         <li><a href="recommended.php">Recommended</a></li>
                         <li><a href="search.php">Search</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="">profile <span class="bullet-notif"></span></a>
+                    <a href="#">profile <span class="bullet-notif"></span><i class="zmdi zmdi-chevron-down"></i></a>
                     <ul class="submenu">
-                        <li><a href="">Message <span class="bullet-notif"></span></a></li>
-                        <li><a href="">Notification <span class="bullet-notif"></span></a></li>
-                        <li><a href="">Edit Profile</a></li>
-                        <li><a href="">Setting</a></li>
+                        <li><a href="message.php">Message <span class="bullet-notif"></span></a></li>
+                        <li><a href="notification.php">Notification <span class="bullet-notif"></span></a></li>
+                        <li><a href="profile.php">Edit Profile</a></li>
+                        <li><a href="setting.php">Setting</a></li>
                         <li><a href="">Sign Out</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="">Lease Your</a>
+                    <a href="#">Lease Your<i class="zmdi zmdi-chevron-down"></i></a>
                     <ul class="submenu">
                         <li><a href="">Transportation</a></li>
                         <li><a href="">House</a></li>

@@ -4,7 +4,7 @@
      <?php require 'modules/components/head.php'; ?>
 
 </head>
-<body> 
+<body>
    <?php require 'modules/components/nav.php'; ?>
    
     <header class="header-section">
@@ -182,62 +182,6 @@
 </div>
     
     <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            var heightHeader = $('header.header-section').outerHeight() - 100;
-            $(window).scroll(function () {
-                var scolling  =  $(window).scrollTop();
-                if(scolling > heightHeader){
-                    $('nav.navigation').addClass('navigation-block');
-                }else {
-                    $('nav.navigation').removeClass('navigation-block');
-                }
-            });
-
-            $("#where").on( "click", function(){
-                var pos = $(this).offset();
-
-                $("#where.active").removeClass("active");
-                $(this).addClass("active");
-                $(".destination-drop").css({
-                    "display": "block",
-                    "left": pos.left,
-                    "top": pos.top + $(this).innerHeight()
-                });
-
-                el = $(this);
-                $(".destination-drop a").hover(function(){
-                    var dataVal = $(this).data("value");
-                    $("#where.active").val( dataVal );
-                });
-                $(".destination-drop a").click(function(){
-                    var dataVal = $(this).data("value");
-                    $("#where.active").val( dataVal );
-                    $(".destination-drop").hide();
-                });
-
-            });
-            $(".destination-drop a").on("click", function(){
-                $(".destination-drop").hide();
-            })
-
-            $('#register').on('click', function(){
-                $('#modal-register').addClass('modal-show');
-                $('body').addClass('no-scroll');
-            });
-
-            $('#btn-subscribe').on('click', function(e){
-                e.preventDefault();
-                $('#modal-subscribe').addClass('modal-show');
-                $('body').addClass('no-scroll');
-                return false;
-            });
-
-            $('.overlay').on('click', function(){
-                $('#modal-register').removeClass('modal-show');
-                $('body').removeClass('no-scroll');
-            });
-        })
-    </script>
+    <script type="text/javascript" src="dist/js/main.js"></script>
 </body>
 </html>

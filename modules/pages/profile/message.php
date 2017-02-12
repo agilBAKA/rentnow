@@ -274,11 +274,16 @@
     
     <?php require 'modules/components/footer.php'; ?>
     <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="dist/js/main.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
            $("#accordionMessage > li > .head-message").on('click',function() {
                 $(this).toggleClass("active-message").next('div').slideToggle(250).closest('li').siblings().find('div.head-message').removeClass('active-message').next('div').slideUp(250);
             });
+
+           $('.unread').on('click', function(){
+                $(this).removeClass('unread').removeAttr('span').addClass('read');
+            })
 
         })
     </script>

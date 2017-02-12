@@ -20,6 +20,25 @@
 			display: block;
 		}
 	}
+
+	@include respond-to(handhelds) {
+		height: auto;
+		.cover-card {
+			width: 100%;
+			height: auto;
+			float: inherit;
+		}
+
+		.card-wide-content {
+			width: 100%;
+			float: inherit;
+			margin: 0px;
+			padding: 15px;
+			a.title {
+				margin-bottom: 20px;
+			}
+		}
+	}
 }
 
 
@@ -101,11 +120,55 @@
 			}
 		}
 	}
+
+	@include respond-to(handhelds) {
+		display: block;
+		padding: 0px 15px;
+		.box-card {
+			padding: 0px;
+			width: 100%;
+			height: auto;
+			margin: 10px 0px;
+			.content-card {
+				height: auto;
+				img.img-cover {
+					height: auto;
+					object-fit:inherit;
+				}
+
+				a {
+					position: relative;
+					.info-card {
+						padding: 20px 0px;
+						position: relative;
+						top:0%;
+					    color: #ffffff;
+					    transform: translateY(0%);
+					    text-align: center;
+					    opacity: 1;
+					}
+				}
+			}
+		}
+	}
 }
 
 .link-card {
 	text-align: center;
 	margin:60px 0px;
+	a {
+		width: auto;
+	}
+
+	@include respond-to(handhelds) {
+		padding: 15px;
+		margin: 0px 0px 15px 0px;
+		a {
+			font-size: 16px;
+			padding: 15px 0px;
+			width: 100%;
+		}
+	}
 }
 
 .search-card {
@@ -113,8 +176,7 @@
 	margin-bottom: 60px;
 	a.search-card-cover {
 		width: 100%;
-		height: 300px;
-		overflow: hidden;
+ 		overflow: hidden;
 		display: block;
 		img  {
 			border-radius: 50px 50px 0px 0px;
@@ -141,6 +203,24 @@
 			font-weight: 900;
 		}
 	}
+
+	@include respond-to(handhelds) {
+		a.search-card-cover {
+			img {
+				border-radius: 15px 15px 0px 0px;
+			}
+		}
+		.search-card-content {
+			a.title-card {
+				padding-right: 60px;
+			}
+			padding-right: 0px;
+			label {
+				top: 0px;
+				right: 15px;
+ 			}
+		}
+	}
 }
 
 .card-profile {
@@ -148,8 +228,7 @@
 	margin-bottom: 40px;
 	.card-profile-cover {
 		width: 100%;
-		height: 200px;
-		margin-bottom: 20px;
+ 		margin-bottom: 20px;
 		img {
 			border-radius: 20px 20px 0px 0px;
 		}
@@ -179,6 +258,33 @@
  					color: $color-primary;
  				}
  			}
+		}
+	}
+
+	@include respond-to(handhelds) {
+		ul {
+			margin-top: 20px;
+			padding: 0px;
+			border: 1px solid #dfdfdf;
+			overflow: hidden;
+			li {
+				width: 50%;
+				margin: 0px;
+				border-right: 1px solid #dfdfdf;
+				border-bottom: 1px solid #dfdfdf;
+				padding: 7px;
+				&:nth-of-type(2) {
+					border-right: 0px;
+				}
+				&:nth-of-type(3) {
+					border-bottom: 0px;
+				}
+				&:last-child {
+					border-bottom: 0px;
+				}
+
+
+			}
 		}
 	}
 }

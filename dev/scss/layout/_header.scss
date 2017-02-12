@@ -89,7 +89,8 @@ header.header-section {
 	}
 
 	@include respond-to(handhelds) {
-
+		display: block;
+		padding-top: 30px;
 		.header-content {
 			padding: 0px 20px;
 			h1 {

@@ -15,11 +15,20 @@ body {
 	}
 
 	@include respond-to(handhelds) {
+		padding-top: 62px !important;
 		.section {
 			padding: 30px 0px;
 		}
+		.section-pages {
+			h1.title-page {
+				margin-bottom: 30px;
+				font-size: 32px; 
+			}
+ 		}
 	}
 }
+
+
 
 
 img {
@@ -71,6 +80,18 @@ a {
 					&:hover {
 						color: #ffffff;
 					}
+				}
+			}
+		}
+	}
+
+	@include respond-to(handhelds) {
+		ul {
+			float: inherit;
+			text-align: center;
+			li {
+				a {
+					margin: 0px 5px;
 				}
 			}
 		}

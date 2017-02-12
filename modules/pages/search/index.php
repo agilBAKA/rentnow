@@ -22,7 +22,7 @@
                                 <div class="col-md-6 list-result">
                                     <div class="search-card">
                                         <a href="" class="search-card-cover">
-                                            <img src="https://images.pexels.com/photos/301692/pexels-photo-301692.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                            <img src="dist/images/search-pict.jpg" alt="">
                                         </a>
                                         <div class="search-card-content">
                                             <a href="" class="title-card">Mauris nibh quam</a>
@@ -37,7 +37,7 @@
                                 <div class="col-md-6 list-result">
                                     <div class="search-card">
                                         <a href="" class="search-card-cover">
-                                            <img src="https://images.pexels.com/photos/301692/pexels-photo-301692.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                            <img src="dist/images/search-pict.jpg" alt="">
                                         </a>
                                         <div class="search-card-content">
                                             <a href="" class="title-card">Mauris nibh quam</a>
@@ -52,7 +52,7 @@
                                 <div class="col-md-6 list-result">
                                     <div class="search-card">
                                         <a href="" class="search-card-cover">
-                                            <img src="https://images.pexels.com/photos/301692/pexels-photo-301692.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                            <img src="dist/images/search-pict.jpg" alt="">
                                         </a>
                                         <div class="search-card-content">
                                             <a href="" class="title-card">Mauris nibh quam</a>
@@ -67,7 +67,7 @@
                                 <div class="col-md-6 list-result">
                                     <div class="search-card">
                                         <a href="" class="search-card-cover">
-                                            <img src="https://images.pexels.com/photos/301692/pexels-photo-301692.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                            <img src="dist/images/search-pict.jpg" alt="">
                                         </a>
                                         <div class="search-card-content">
                                             <a href="" class="title-card">Mauris nibh quam</a>
@@ -82,7 +82,7 @@
                                 <div class="col-md-6 list-result">
                                     <div class="search-card">
                                         <a href="" class="search-card-cover">
-                                            <img src="https://images.pexels.com/photos/301692/pexels-photo-301692.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                            <img src="dist/images/search-pict.jpg" alt="">
                                         </a>
                                         <div class="search-card-content">
                                             <a href="" class="title-card">Mauris nibh quam</a>
@@ -97,7 +97,7 @@
                                 <div class="col-md-6 list-result">
                                     <div class="search-card">
                                         <a href="" class="search-card-cover">
-                                            <img src="https://images.pexels.com/photos/301692/pexels-photo-301692.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                            <img src="dist/images/search-pict.jpg" alt="">
                                         </a>
                                         <div class="search-card-content">
                                             <a href="" class="title-card">Mauris nibh quam</a>
@@ -112,7 +112,7 @@
                                 <div class="col-md-6 list-result">
                                     <div class="search-card">
                                         <a href="" class="search-card-cover">
-                                            <img src="https://images.pexels.com/photos/301692/pexels-photo-301692.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                            <img src="dist/images/search-pict.jpg" alt="">
                                         </a>
                                         <div class="search-card-content">
                                             <a href="" class="title-card">Mauris nibh quam</a>
@@ -127,7 +127,7 @@
                                 <div class="col-md-6 list-result">
                                     <div class="search-card">
                                         <a href="" class="search-card-cover">
-                                            <img src="https://images.pexels.com/photos/301692/pexels-photo-301692.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                                            <img src="dist/images/search-pict.jpg" alt="">
                                         </a>
                                         <div class="search-card-content">
                                             <a href="" class="title-card">Mauris nibh quam</a>
@@ -163,6 +163,7 @@
     <?php require 'modules/components/footer.php'; ?>
 
 
-    <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+    <script type="text/javascript" src="dist/js/main.js"></script>
  </body>
 </html>
