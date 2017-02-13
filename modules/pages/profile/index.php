@@ -25,7 +25,7 @@
                              </p>
                              <div class="wallet">
                                  <label>Balance</label>
-                                 <button><i class="zmdi zmdi-plus-circle-o"></i></button>
+                                 <button id="add-topup"><i class="zmdi zmdi-plus-circle-o"></i></button>
                                  <div class="box-balance">
                                      Rp 200.000.000,-
                                  </div>
@@ -197,6 +197,7 @@
     </section>
     
     <?php require 'modules/components/footer.php'; ?>
+    <?php require 'modules/components/modal-topup.php'; ?>
     
     <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="dist/js/main.js"></script>

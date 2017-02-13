@@ -40,6 +40,11 @@ $('#register').on('click', function(){
     $('#modal-register').addClass('modal-show');
     $('body').addClass('no-scroll');
 });
+$('#add-topup').on('click', function(){
+    $('#modal-topup').addClass('modal-show');
+    $('body').addClass('no-scroll');
+});
+
 
 $('#btn-subscribe').on('click', function(e){
     e.preventDefault();
@@ -52,6 +57,12 @@ $('.overlay').on('click', function(){
     $('#modal-register').removeClass('modal-show');
     $('body').removeClass('no-scroll');
 });
+
+$('.overlay').on('click', function(){
+    $('#modal-topup').removeClass('modal-show');
+    $('body').removeClass('no-scroll');
+});
+
 
 $('.menu li a').on('click', function(){
     $(this).next().toggleClass('open-submenu');

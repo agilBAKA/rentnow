@@ -9,12 +9,16 @@ h1.title {
 }
 
 
+h2.heading-light,
 h1.title-page{
 	font-size: 32px;
 	color: $color-dark;
 	font-weight: 100;
 }
 
+h2.heading-light {
+	padding-bottom: 30px;
+}
 h2.heading {
 	font-size: 62px;
 	color: $color-grey;
