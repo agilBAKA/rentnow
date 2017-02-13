@@ -1,8 +1,7 @@
- form.default-form {
+form.default-form {
 	.bg-input,
 	input,
-	textarea,
-	select{
+	textarea{
 		border-radius: 100px;
 		height: 40px;
 		padding: 8px 25px;
@@ -234,4 +233,90 @@ div.avatar {
 	width: 150px; height: 150px; border-radius: 16px;
 	overflow: hidden;
 	background: url(../images/back-upload-avatar.png)no-repeat center center $color-soft;
+}
+
+
+.style-select {
+	label {
+		margin-top: 5px;
+		display: inline-block;
+	}
+	$background: #e74c3c;
+	$select-color: #fff;
+	$select-background: #c0392b;
+	$select-width: 220px;
+	$select-height: 40px;
+	.select-hidden {
+	  display: none;
+	  visibility: hidden;
+	  padding-right: 10px;
+	}
+	.select {
+		float: right;
+		cursor: pointer;
+		display: inline-block;
+		position: relative; 
+		color: $color-dark;
+		width: 160px;
+		height: 40px;
+		position: relative; 
+		top: -25px;
+	}
+
+	.select-styled {
+		position: absolute; 
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding-top: 10px;
+		background-color: transparent;
+		transition:all 0.2s ease-in;
+		&:after {
+			content:"";
+			width: 0;
+			height: 0;
+			border: 7px solid transparent;
+			border-color: $color-primary transparent transparent transparent;
+			position: absolute;
+			top: 16px;
+			right: 10px;
+		}
+		 
+		&:active, &.active {
+			 
+		&:after {
+			top: 9px;
+			border-color: transparent transparent $color-primary transparent;
+			}
+		}
+	}
+
+	.select-options {
+		display: none; 
+		position: absolute;
+		top: 100%;
+		right: 0;
+		left: 0;
+		z-index: 999;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		background-color: $color-soft;
+		transform: translateY(-2px); 
+		li {
+			margin: 0;
+			padding: 12px 0;
+			text-indent: 15px;
+			border-top: 1px solid darken($color-soft, 5%);
+			transition: all 0.15s ease-in;
+			&:hover {
+				color: $color-dark;
+				background: darken($color-soft, 10%);
+			}
+			&[rel="hide"] {
+				display: none;
+			}
+		}
+	}
 }
