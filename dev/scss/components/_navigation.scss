@@ -236,6 +236,15 @@ nav.navigation {
 							transform:translateX(0%) translateY(0%);
 						}
 					}
+
+					&:last-child {
+						border-bottom: 0px;
+						margin-top: 15px;
+						a.lease {
+							margin-right: 15px;
+							color: $color-primary !important;
+						}
+					}
 	 			}
  			}
 
@@ -265,6 +274,9 @@ nav.navigation {
 
  			&.menu-open {
  				transform: translateX(0%);
+ 				ul {
+ 					width: 100%;
+ 				}
  			}
  		}
  	}

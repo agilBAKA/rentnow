@@ -52,6 +52,25 @@
 			opacity: 1;
 		}
 	}
+
+	@include respond-to(handhelds) {
+		.content-modal {
+			padding:15px;
+			.content-modal-inner {
+				padding: 20px; 
+				border-radius: 20px;
+				.title-modal {
+					text-align: center;
+					h4 {
+						font-weight: 400;
+						font-size: 28px;
+						display: inline-block;
+						margin-right: 10px;
+					}
+				}
+			}
+		}
+	}
 }
 
 
@@ -106,6 +125,38 @@
 			text-align: center;
 			&:hover {
 				color: #fff;
+			}
+		}
+	}
+
+	@include respond-to(handhelds) {
+		a.btn-reg {
+			padding:15px;
+		    height: auto; 
+		    font-size: 14px;
+		    line-height: initial;
+		    i {
+		    	font-size: 21px;
+ 			    left: 19px;
+			    top: 16px;
+		    }
+		}
+
+		hr {
+			display: none;
+		}
+
+		p.info {
+			display: none;
+		}
+
+		.box-footer {
+			margin-top: 35px;
+			border-top: 1px solid #ddd;
+			overflow: hidden;
+			text-align: center;
+			a {
+				float: inherit;
 			}
 		}
 	}
