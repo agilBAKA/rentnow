@@ -241,11 +241,6 @@ div.avatar {
 		margin-top: 5px;
 		display: inline-block;
 	}
-	$background: #e74c3c;
-	$select-color: #fff;
-	$select-background: #c0392b;
-	$select-width: 220px;
-	$select-height: 40px;
 	.select-hidden {
 	  display: none;
 	  visibility: hidden;
@@ -317,6 +312,20 @@ div.avatar {
 			&[rel="hide"] {
 				display: none;
 			}
+		}
+	}
+
+	@include respond-to(handhelds) {
+		height: auto !important;
+ 		border-radius: 16px !important;
+ 		label {
+ 			display: block;
+ 		}
+		.select {
+			top: 0px;
+			width: 100%;
+			float: inherit;
+			margin-top: 10px;
 		}
 	}
 }

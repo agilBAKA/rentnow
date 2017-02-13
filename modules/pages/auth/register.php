@@ -9,7 +9,7 @@
 	<div class="nav-pages">
    		<?php require 'modules/components/nav.php'; ?>
    	</div>
-    <section class="section section-pages">
+    <section class="section section-pages section-auth">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">

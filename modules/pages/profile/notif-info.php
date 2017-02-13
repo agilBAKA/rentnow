@@ -5,7 +5,7 @@
     <div class="col-md-7">
         <form action="" class="default-form">
            
-            <div class="field bg-input gender">
+            <div class="field bg-input radio-type">
                 <label>Message</label>
                 <div class="box-radio">
                     <div class="style-radio">    
@@ -20,7 +20,7 @@
             </div>
             
             
-            <div class="field bg-input gender">
+            <div class="field bg-input radio-type">
                 <label>Purchase status</label>
                 <div class="box-radio">
                     <div class="style-radio">    
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="field bg-input gender">
+            <div class="field bg-input radio-type">
                 <label>Recomendation</label>
                 <div class="box-radio">
                     <div class="style-radio">    
@@ -46,7 +46,7 @@
                     </div>
                 </div>
             </div>
-            <div class="field bg-input gender">
+            <div class="field bg-input radio-type">
                 <label>News</label>
                 <div class="box-radio">
                     <div class="style-radio">    
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </div>
-            <div class="field bg-input gender">
+            <div class="field bg-input radio-type">
                 <label>Reminder</label>
                 <div class="box-radio">
                     <div class="style-radio">    

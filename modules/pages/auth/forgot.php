@@ -5,7 +5,7 @@
 </head>
 <body class="body-pages">
     <?php require 'modules/components/nav-after-login.php'; ?>
-     <section class="section section-pages">
+     <section class="section section-pages section-auth">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">

@@ -455,8 +455,39 @@
 
 .title-setting {
 	font-weight: 900;
+	margin-bottom: 30px;
 }
 
 .deactive-account {
 	padding-top: 100px;
 }
+
+.radio-type {
+	padding-top: 12px !important;
+	.box-radio {
+		float: right;
+		margin-top: 2px;
+		.style-radio {
+			float: left;
+			padding-left: 20px;
+		}
+	}
+	
+	@include respond-to(handhelds) {
+		height: auto !important;
+		overflow: hidden;
+		border-radius: 16px !important;
+		.box-radio {
+			padding: 20px 0px 10px 0px;
+			float: inherit;
+			width: 100%;
+			overflow: hidden;
+			.style-radio {
+				padding-left: 0px;
+				padding-right: 20px;
+			}
+
+		}
+	}
+}
+ 
