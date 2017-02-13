@@ -9,26 +9,6 @@
         <div class="menu">
             <ul>
                 <li>
-                    <a href="">Home</a>
-                </li>
-                <li>
-                    <a href="#">Browse<i class="zmdi zmdi-chevron-down"></i></a>
-                    <ul class="submenu">
-                        <li><a href="recommended.php">Recommended</a></li>
-                        <li><a href="search.php">Search</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">profile <span class="bullet-notif"></span><i class="zmdi zmdi-chevron-down"></i></a>
-                    <ul class="submenu">
-                        <li><a href="message.php">Message <span class="bullet-notif"></span></a></li>
-                        <li><a href="notification.php">Notification <span class="bullet-notif"></span></a></li>
-                        <li><a href="profile.php">Edit Profile</a></li>
-                        <li><a href="setting.php">Setting</a></li>
-                        <li><a href="">Sign Out</a></li>
-                    </ul>
-                </li>
-                <li>
                     <a href="#">Lease Your<i class="zmdi zmdi-chevron-down"></i></a>
                     <ul class="submenu">
                         <li><a href="">Transportation</a></li>

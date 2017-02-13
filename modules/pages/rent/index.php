@@ -6,9 +6,7 @@
 
 </head>
 <body class="body-pages">
-	<div class="nav-pages">
-   		<?php require 'modules/components/nav.php'; ?>
-   	</div>
+	<?php require 'modules/components/nav-after-login.php'; ?>
     <header class="header-rent">
         <div id="gallery-slider">
             <div class="content-slider">

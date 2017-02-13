@@ -4,9 +4,7 @@
      <?php require 'modules/components/head.php'; ?>
  </head>
 <body class="body-pages">
-	<div class="nav-pages">
-   		<?php require 'modules/components/nav.php'; ?>
-   	</div>
+	<?php require 'modules/components/nav-after-login.php'; ?>
     <section class="section section-pages">
         <div class="container">
             <div class="row">

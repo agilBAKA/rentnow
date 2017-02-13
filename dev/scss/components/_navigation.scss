@@ -272,41 +272,41 @@ nav.navigation {
 }
 
 
-.nav-pages {
-	nav.navigation {
-		background: $color-soft;
- 		padding: 20px;
 
- 		a.logo {
- 			width: 160px;
- 			background-image: url(../images/logocolor.png);
- 		}
+nav.nav-after-login {
+	background: $color-soft;
+		padding: 20px;
 
- 		.menu {
- 			ul {
- 				li  {
- 					a {
- 						color: $color-primary;
- 						&:hover {
- 							color: $color-dark;
- 						}
- 					}
- 				}
- 			}
+		a.logo {
+			width: 160px;
+			background-image: url(../images/logocolor.png);
+		}
 
- 			.box-login {
- 				border-color: $color-primary;
- 				a {
- 					color: $color-primary;
- 					&.sign-up {
- 						color: #ffffff;
- 						background: $color-primary;
- 					}
- 				}
- 			}
- 		}
-	}
+		.menu {
+			ul {
+				li  {
+					a {
+						color: $color-dark;
+						&:hover {
+							color: $color-primary;
+						}
+
+						&.lease {
+							margin-top: 0px;
+							margin-left: 20px;
+							padding: 10px 20px;
+							color: $color-primary;
+							&:hover {
+								background: transparent;
+							}
+						}
+					}
+				}
+			}
+			 
+		}
 }
+ 
 
 .menu-burger {
   width:30px;

@@ -5,9 +5,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css">
 </head>
 <body class="body-pages">
-	<div class="nav-pages">
-   		<?php require 'modules/components/nav.php'; ?>
-   	</div>
+	<?php require 'modules/components/nav-after-login.php'; ?>
     <section class="section section-profile">
         <div class="container">
             <div class="row">
