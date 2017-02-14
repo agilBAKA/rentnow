@@ -1,13 +1,3 @@
- 
-var heightHeader = $('header.header-section').outerHeight() - 100;
-$(window).scroll(function () {
-    var scolling  =  $(window).scrollTop();
-    if(scolling > heightHeader){
-        $('nav.navigation').addClass('navigation-block');
-    }else {
-        $('nav.navigation').removeClass('navigation-block');
-    }
-});
 
 $("#where").on( "click", function(){
     var pos = $(this).offset();
@@ -73,4 +63,7 @@ $('#burger').on('click', function(){
     $('.menu').toggleClass('menu-open');
     $('body').toggleClass('no-scroll');
     $('.overlay-menu').toggleClass('overlay-menu-open');
+    $('.submenu').toggleClass('open-submenu');
 });
+
+ 

@@ -1,1 +1,0 @@
- <?php require 'modules/pages/rent/index.php'; ?>

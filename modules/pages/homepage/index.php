@@ -12,6 +12,7 @@
             <div class="container">
                 <div class="row">
                     <h1>Justo Amet Lorem</h1>
+                    <div class="clearfix"></div>
                     <?php require 'modules/pages/homepage/form.php'; ?>
                 </div>
             </div>
@@ -182,6 +183,40 @@
 </div>
     
     <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="dist/js/vendor/jquery.daterangepicker.min.js"></script>
     <script type="text/javascript" src="dist/js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var heightHeader = $('header.header-section').outerHeight() - 100;
+            $(window).scroll(function () {
+                var scolling  =  $(window).scrollTop();
+                if(scolling > heightHeader){
+                    $('nav.navigation').addClass('navigation-block');
+                }else {
+                    $('nav.navigation').removeClass('navigation-block');
+                }
+            });
+
+            $('#dateRange').dateRangePicker(   
+                    {
+                        stickyMonths: true,
+                        autoclose: true,
+                        separator : ' to ',
+                        getValue: function()
+                        {
+                            if ($('#date-form').val() && $('#date-to').val() )
+                                return $('#date-form').val() + ' to ' + $('#date-to').val();
+                            else
+                                return '';
+                        },
+                        setValue: function(s,s1,s2)
+                        {
+                            $('#date-form').val(s1);
+                            $('#date-to').val(s2);
+                        }
+                    });
+        })
+    </script>
 </body>
 </html>

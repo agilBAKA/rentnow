@@ -216,21 +216,30 @@
 		}
 		.box-verifications {
 			margin-bottom: 30px;
-		ul {
-			li {
-				max-width: 100%;
+			ul {
+				li {
+					max-width: 100%;
+				}
+			}
+
+			a {
+				color: $color-primary;
+				font-style: italic;
+				font-weight: 400;
+				&:hover {
+					color: $color-dark;
+				}
 			}
 		}
 
-		a {
-			color: $color-primary;
-			font-style: italic;
-			font-weight: 400;
-			&:hover {
-				color: $color-dark;
-			}
+		.content-setting {
+			padding-bottom: 40px;
+		} 
+
+		.deactive-account {
+			padding-top: 40px;
 		}
-	}
+
 	}
 }
 

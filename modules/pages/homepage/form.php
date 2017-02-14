@@ -8,13 +8,15 @@
 			<label for="where">Where</label>
 			<input type="text" id="where" placeholder="find here">
 		</div>
-		<div class="field">
-			<label for="date-form">form</label>
-			<input type="text" id="date-form" placeholder="select here">
-		</div>
-		<div class="field">
-			<label for="date-to">to</label>
-			<input type="text" id="date-to" placeholder="select here">
+		<div id="dateRange">
+			<div class="field">
+				<label for="date-form">form</label>
+				<input type="text" id="date-form" placeholder="select here">
+			</div>
+			<div class="field">
+				<label for="date-to">to</label>
+				<input type="text" id="date-to" placeholder="select here">
+			</div>
 		</div>
 		<div class="field">
 			<button type="submit" id="search">

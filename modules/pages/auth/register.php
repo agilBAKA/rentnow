@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <?php require 'modules/components/head.php'; ?>
-     
+     <?php require 'modules/components/head.php'; ?>     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css">
 </head>
 <body class="body-pages">
-	<div class="nav-pages">
-   		<?php require 'modules/components/nav.php'; ?>
-   	</div>
+  	<?php require 'modules/components/nav.php'; ?>
     <section class="section section-pages section-auth">
         <div class="container">
             <div class="row">
@@ -82,6 +79,7 @@
     <script type="text/javascript" src="dist/js/main.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
+             $('nav.navigation').addClass('navigation-block');
              $('#birthdate').datepicker({
                  autoclose: true
              });

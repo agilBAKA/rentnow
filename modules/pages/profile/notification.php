@@ -13,13 +13,13 @@
                     <div class="sidebar-menu">
                         <ul>
                             <li>
-                                <a href="">Message</a>
+                                <a href="message.php">Message</a>
                             </li>
                             <li>
-                                <a href="" class="profile-active">Notification (3) <span class="bullet-notif"></span></a>
+                                <a href="notification.php" class="profile-active">Notification (3) <span class="bullet-notif"></span></a>
                             </li>
                             <li>
-                                <a href="">Setting</a>
+                                <a href="setting.php">Setting</a>
                             </li>
                         </ul>
                     </div>

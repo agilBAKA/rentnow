@@ -109,7 +109,7 @@
         <div class="box-card">
             <div class="content-card">
                 <a href="">
-                    <img src="https://images.pexels.com/photos/248386/pexels-photo-248386.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                    <img src="dist/images/list-pict.jpg" alt="" class="img-cover">
                     <div class="info-card">
                         <h5>Phasellus posuere</h5>
                         <span>Entire home/apt · Seminyak</span>
@@ -121,7 +121,7 @@
         <div class="box-card">
             <div class="content-card">
                 <a href="">
-                    <img src="https://images.pexels.com/photos/271558/pexels-photo-271558.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                    <img src="dist/images/list-pict.jpg" alt="" class="img-cover">
                     <div class="info-card">
                         <h5>Phasellus posuere</h5>
                         <span>Entire home/apt · Seminyak</span>
@@ -133,7 +133,7 @@
         <div class="box-card">
             <div class="content-card">
                 <a href="">
-                    <img src="https://images.pexels.com/photos/247376/pexels-photo-247376.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                    <img src="dist/images/list-pict.jpg" alt="" class="img-cover">
                     <div class="info-card">
                         <h5>Phasellus posuere</h5>
                         <span>Entire home/apt · Seminyak</span>
@@ -145,7 +145,7 @@
         <div class="box-card">
             <div class="content-card">
                 <a href="">
-                    <img src="https://images.pexels.com/photos/109102/pexels-photo-109102.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                     <img src="dist/images/list-pict.jpg" alt="" class="img-cover">
                     <div class="info-card">
                         <h5>Phasellus posuere</h5>
                         <span>Entire home/apt · Seminyak</span>
@@ -168,7 +168,7 @@
             <div class="box-card">
                 <div class="content-card">
                     <a href="">
-                        <img src="https://images.pexels.com/photos/248386/pexels-photo-248386.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                        <img src="dist/images/list-pict.jpg" alt="" class="img-cover">
                         <div class="info-card">
                             <h5>Phasellus posuere</h5>
                             <span>Entire home/apt · Seminyak</span>
@@ -180,7 +180,7 @@
             <div class="box-card">
                 <div class="content-card">
                     <a href="">
-                        <img src="https://images.pexels.com/photos/271558/pexels-photo-271558.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                        <img src="dist/images/list-pict.jpg" alt="" class="img-cover">
                         <div class="info-card">
                             <h5>Phasellus posuere</h5>
                             <span>Entire home/apt · Seminyak</span>
@@ -192,7 +192,7 @@
             <div class="box-card">
                 <div class="content-card">
                     <a href="">
-                        <img src="https://images.pexels.com/photos/247376/pexels-photo-247376.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                       <img src="dist/images/list-pict.jpg" alt="" class="img-cover">
                         <div class="info-card">
                             <h5>Phasellus posuere</h5>
                             <span>Entire home/apt · Seminyak</span>
@@ -204,7 +204,7 @@
             <div class="box-card">
                 <div class="content-card">
                     <a href="">
-                        <img src="https://images.pexels.com/photos/109102/pexels-photo-109102.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                        <img src="dist/images/list-pict.jpg" alt="" class="img-cover">
                         <div class="info-card">
                             <h5>Phasellus posuere</h5>
                             <span>Entire home/apt · Seminyak</span>

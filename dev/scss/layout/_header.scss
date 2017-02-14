@@ -41,6 +41,13 @@ header.header-section {
 				border-radius: 100px;
 				color: #ffffff;
 				padding: 0px 20px 0px 85px;
+				#dateRange {
+					width: 300px;
+					.field {
+						float: left;
+						width: 50%;
+					}
+				}
 				.field {
 					padding:10px 20px; 
 					text-align: left;
@@ -95,9 +102,12 @@ header.header-section {
 			padding: 0px 20px;
 			h1 {
 				font-size: 32px;
+				display: block;
+				margin-bottom: 60px;
 			}
 
 			.box-search {
+				width: 100%;
 				form {
 					display: block;
 					border-radius: 10px;
