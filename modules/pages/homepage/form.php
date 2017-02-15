@@ -18,7 +18,7 @@
 				<input type="text" id="date-to" placeholder="select here">
 			</div>
 		</div>
-		<div class="field">
+		<div class="field btn-search">
 			<button type="submit" id="search">
 				<i class="zmdi zmdi-search"></i>
 			</button>

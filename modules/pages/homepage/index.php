@@ -216,6 +216,38 @@
                             $('#date-to').val(s2);
                         }
                     });
+            
+
+            $("#where").on( "click", function(){
+                var pos = $(this).offset();
+
+                $("#where.active").removeClass("active");
+                $(this).addClass("active");
+                $(".destination-drop").css({
+                    "display": "block",
+                    "left": pos.left,
+                    "top": pos.top + $(this).innerHeight()
+                });
+
+                el = $(this);
+                // $(".destination-drop a").hover(function(){
+                //     var dataVal = $(this).data("value");
+                //     $("#where.active").val( dataVal );
+                // });
+                $(".destination-drop a").click(function(){
+                    var dataVal = $(this).data("value");
+                    $("#where.active").val( dataVal );
+                    $(".destination-drop").hide();
+                });
+
+            });
+            $(".destination-drop a").on("click", function(){
+                $(".destination-drop").hide();
+            })
+            
+            $('.destination-drop').on('mouseleave',function(){
+                $(this).hide()
+            });
         })
     </script>
 </body>

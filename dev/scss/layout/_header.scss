@@ -30,7 +30,7 @@ header.header-section {
 			font-weight: 900;
 			font-size: 72px;
 			width: 100%;
-			margin-bottom: 30px;
+			margin-bottom: 60px;
 		}
 		.box-search {
 			width: 100%;
@@ -42,19 +42,22 @@ header.header-section {
 				color: #ffffff;
 				padding: 0px 20px 0px 85px;
 				#dateRange {
-					width: 300px;
+					max-width: 330px;
+					border-right: 2px solid #ffffff;
 					.field {
 						float: left;
 						width: 50%;
+						border-right: 0px;
 					}
 				}
 				.field {
 					padding:10px 20px; 
 					text-align: left;
+					border: none;
+					border-right: 2px solid #ffffff;
 					label {
 						display: block;
 					}
-					border-right: 2px solid #ffffff;
 					input {
 						background: transparent;
 						border: none;
@@ -102,12 +105,9 @@ header.header-section {
 			padding: 0px 20px;
 			h1 {
 				font-size: 32px;
-				display: block;
-				margin-bottom: 60px;
 			}
 
 			.box-search {
-				width: 100%;
 				form {
 					display: block;
 					border-radius: 10px;
