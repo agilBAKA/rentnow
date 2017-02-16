@@ -199,23 +199,23 @@
             });
 
             $('#dateRange').dateRangePicker(   
-                    {
-                        stickyMonths: true,
-                        autoclose: true,
-                        separator : ' to ',
-                        getValue: function()
-                        {
-                            if ($('#date-form').val() && $('#date-to').val() )
-                                return $('#date-form').val() + ' to ' + $('#date-to').val();
-                            else
-                                return '';
-                        },
-                        setValue: function(s,s1,s2)
-                        {
-                            $('#date-form').val(s1);
-                            $('#date-to').val(s2);
-                        }
-                    });
+            {
+                stickyMonths: true,
+                autoclose: true,
+                separator : ' to ',
+                getValue: function()
+                {
+                    if ($('#date-form').val() && $('#date-to').val() )
+                        return $('#date-form').val() + ' to ' + $('#date-to').val();
+                    else
+                        return '';
+                },
+                setValue: function(s,s1,s2)
+                {
+                    $('#date-form').val(s1);
+                    $('#date-to').val(s2);
+                }
+            });
             
 
             $("#where").on( "click", function(){

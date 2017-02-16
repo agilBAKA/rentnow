@@ -9,9 +9,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                <div class="field-search">
-                    <input type="text" placeholder="Type what you are searching for">
-                </div>
+                <form action="" class="box-search">
+                    <div class="field">
+                        <input type="text" placeholder="Type what you are searching for">
+                    </div>
+                    <div class="field" id="searchRange">
+                        <div class="field-search">
+                            <div class="content-search">
+                                <label for="search-form">Form</label>
+                                <input type="text" id="search-form" placeholder="select here">
+                            </div>
+                        </div>
+                        <div class="field-search">
+                            <div class="content-search">
+                                <label for="search-to">To</label>
+                                <input type="text" id="search-to" placeholder="select here">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <button><i class="zmdi zmdi-search"></i></button>
+                    </div>
+                </form>
+
                 </div>
                 <div class="col-md-12">
                     <ul class="tabs">
@@ -50,6 +70,8 @@
     <?php require 'modules/components/modal-subscribe.php'; ?>
 
     <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="dist/js/vendor/jquery.daterangepicker.min.js"></script>
     <script type="text/javascript" src="dist/js/main.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
@@ -108,6 +130,26 @@
                     });
                 });
                 
+
+                // search range
+                $('#searchRange').dateRangePicker(   
+                {
+                    stickyMonths: true,
+                    autoclose: true,
+                    separator : ' to ',
+                    getValue: function()
+                    {
+                        if ($('#search-form').val() && $('#search-to').val() )
+                            return $('#search-form').val() + ' to ' + $('#search-to').val();
+                        else
+                            return '';
+                    },
+                    setValue: function(s,s1,s2)
+                    {
+                        $('#search-form').val(s1);
+                        $('#search-to').val(s2);
+                    }
+                });
                  
             });
         })
