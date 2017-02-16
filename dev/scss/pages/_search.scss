@@ -24,13 +24,14 @@ form.box-search {
 
 	#searchRange { 
 		position: relative;
-		top: 22px;
-		.field-search {
+ 		.field-search {
 			position: relative;
 			float: left;
 			width: 50%;
 			.content-search {
 				display: table;
+				position: relative;
+				top: 7px;
 				label {
 					display: table-cell;
 					bottom: 18px;
@@ -40,7 +41,8 @@ form.box-search {
 				}
 				input {
 					font-weight: 500;
-					display: table-cell; 
+					display: table-cell;
+					padding-bottom: 0px;
 				}
 			}
 

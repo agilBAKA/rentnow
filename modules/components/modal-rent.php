@@ -1,9 +1,8 @@
-<div class="box-modal box-rent modal-show" id="modal-rent">
+<div class="box-modal box-rent" id="modal-rent">
 	<div class="overlay"></div>
 	<div class="content-modal">
 		<div class="content-modal-inner">
-			 
-			<div class="section-rent" id="rent-first-step" style="display: none">
+			<div class="section-rent section-rent-active" id="rent-first-step">
 				<div class="row">
 					<div class="col-md-7">
 						<h3>Please fill your rent details</h3>
@@ -48,7 +47,7 @@
 					</div>
 				</div>
 			</div>
- 			<div class="section-rent" id="rent-second-step" style="display: none">
+ 			<div class="section-rent" id="rent-second-step">
 				<div class="title-modal ">
 					<h2>Rent The Pondhouse</h2>
 				</div>
@@ -76,7 +75,7 @@
 					</div>
 				</div>
 				<div class="box-footer">
- 					<a href="" class="btn-primary full">Continue to Payment Page</a>
+ 					<a href="" class="btn-primary full" id="go-pay">Continue to Payment Page</a>
 				</div>
 			</div>
 			<div class="section-rent" id="rent-finish">
@@ -85,10 +84,9 @@
 					<img src="dist/images/check.png" alt="">
 				</div>
 				<div class="box-footer">
- 					<a href="" class="btn-primary full">done</a>
+ 					<a href="" class="btn-primary full" id="finish-payment">done</a>
 				</div>
 			</div>
-			 
-		</div>
+ 		</div>
 	</div>
 </div>

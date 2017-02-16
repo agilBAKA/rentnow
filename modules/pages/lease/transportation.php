@@ -81,7 +81,12 @@
                 </div>
                 <div class="col-md-4">
                     <div class="aside-rent">
-                        <div class="aside-rent-avail" id="rent-avail">Check for availability <i class="zmdi zmdi-chevron-down"></i></div>
+                        <div class="aside-rent-avail" >
+                            <div id="rent-avail">
+                                Check for availability <i class="zmdi zmdi-chevron-down"></i>
+                            </div> 
+                            <div id="rent-avail-container"></div>
+                        </div>
                         <button class="btn-primary btn-big full" id="add-rent">Rent now</button>
                     </div>
                 </div>
@@ -215,9 +220,6 @@
             </div>
         </div>
     </section>
- 
-    
-
 
     <?php require 'modules/components/footer.php'; ?>
     <?php require 'modules/components/modal-subscribe.php'; ?>
@@ -244,17 +246,53 @@
                 prevArrow: '<button class="slick-arrow-prev"><i class="zmdi zmdi-chevron-left"></i></button>',
             });
 
+            var booked= ["18/02/2017", "19/02/2017", "20/02/2017", "21/02/2017", "22/02/2017"];
             var today = new Date();
+              
+
+            // console.log(eventDates);
 
             $('#rent-avail').dateRangePicker(
             {
                 stickyMonths: true,
                 ignoreReadonly: false,
+                format: "dd/mm/yyyy",
+                autoclose: true,
                 startDate:today,
-                // beforeShowDay: function() {
-                //   return false;
-                // }
+                inline:true,
+                container: '#rent-avail-container',
+                alwaysOpen:true,
+                beforeShowDay: function( e ) {
+                return (booked.indexOf() > -1) ? [true, "event"] : [true, ""];
+             }
             });
+
+            $('#rent-avail').on('click', function(){
+                $(this).toggleClass('rent-avail-show');
+                $('#rent-avail-container').toggleClass('container-show');
+            });
+
+            $(document).click(function (e) {
+                if(!$(e.target).hasClass('rent-avail-show') && !$(e.target).hasClass('container-show')) {
+                    $('#rent-avail-container').removeClass('container-show');
+                    $('#rent-avail').removeClass('rent-avail-show');
+                };
+             });
+
+            $('#go-rent').on('click', function(e){
+                e.preventDefault();
+                 $('#rent-first-step').removeClass('section-rent-active');
+                $('#rent-second-step').addClass('section-rent-active');
+            });
+
+            $('#go-pay').on('click', function(e){
+                e.preventDefault();
+                 $('#rent-second-step').removeClass('section-rent-active');
+                $('#rent-finish').addClass('section-rent-active');
+            });
+
+          
+            
         })
     </script>
  </body>

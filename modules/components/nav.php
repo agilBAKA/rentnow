@@ -11,9 +11,9 @@
                 <li>
                     <a href="#">Lease Your<i class="zmdi zmdi-chevron-down"></i></a>
                     <ul class="submenu">
-                        <li><a href="">Transportation</a></li>
-                        <li><a href="">House</a></li>
-                        <li><a href="">Tools</a></li>
+                        <li><a href="transportation.php">Transportation</a></li>
+                        <li><a href="home.php">House</a></li>
+                        <li><a href="tools.php">Tools</a></li>
                     </ul>
                 </li>
             </ul>

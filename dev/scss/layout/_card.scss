@@ -46,6 +46,10 @@
 	width: 100%;
 	display: flex;
  	padding: 0px 10px;
+
+ 	&.view-all {
+ 		padding: 10px;
+ 	}
 	.box-card {
 		width: 25%;
 		padding: 0px 10px;
