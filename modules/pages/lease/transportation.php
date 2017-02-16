@@ -81,8 +81,8 @@
                 </div>
                 <div class="col-md-4">
                     <div class="aside-rent">
-                        <div class="aside-rent-avail">Check for availability <i class="zmdi zmdi-chevron-down"></i></div>
-                        <button class="btn-primary btn-big full">Rent now</button>
+                        <div class="aside-rent-avail" id="rent-avail">Check for availability <i class="zmdi zmdi-chevron-down"></i></div>
+                        <button class="btn-primary btn-big full" id="add-rent">Rent now</button>
                     </div>
                 </div>
                 <div class="clearfix"></div>
@@ -98,7 +98,7 @@
         </div>
     </section>
     <section class="section section-pages bg-grey">
-         <div class="container">
+        <div class="container">
             <div class="row">
                 <div class="col-md-12">
                         <h4 class="list-heading">Similar transportation</h4>
@@ -221,9 +221,12 @@
 
     <?php require 'modules/components/footer.php'; ?>
     <?php require 'modules/components/modal-subscribe.php'; ?>
+    <?php require 'modules/components/modal-rent.php'; ?>
     
     <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script> 
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="dist/js/vendor/jquery.daterangepicker.min.js"></script>
     <script type="text/javascript" src="dist/js/main.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
@@ -239,6 +242,18 @@
                 autoplaySpeed: 2000,
                 nextArrow: '<button class="slick-arrow-next"><i class="zmdi zmdi-chevron-right"></i></button>',
                 prevArrow: '<button class="slick-arrow-prev"><i class="zmdi zmdi-chevron-left"></i></button>',
+            });
+
+            var today = new Date();
+
+            $('#rent-avail').dateRangePicker(
+            {
+                stickyMonths: true,
+                ignoreReadonly: false,
+                startDate:today,
+                // beforeShowDay: function() {
+                //   return false;
+                // }
             });
         })
     </script>

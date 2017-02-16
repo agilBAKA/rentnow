@@ -198,7 +198,7 @@
                 }
             });
 
-            $('#dateRange').dateRangePicker(   
+            $('#dateRange').dateRangePicker(
             {
                 stickyMonths: true,
                 autoclose: true,

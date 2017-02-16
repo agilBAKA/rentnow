@@ -191,7 +191,7 @@
 	.aside-rent-avail {
 		font-size: 19px;
 		font-weight: 600;
-		margin-bottom: 20px;
+		padding-bottom: 20px;
 		color: $color-primary;
 		cursor: pointer;
 		i {
@@ -204,3 +204,104 @@
 	}
 
 }
+
+.box-rent {
+	overflow: auto;
+	.content-modal {
+		max-width: 680px;
+		height: auto;
+		.content-modal-inner {
+			padding-right: 50px;
+			padding-bottom: 40px;
+		}
+	}
+
+	h3 {
+		font-size: 19px;
+		font-weight: 600;
+		margin-bottom: 40px;
+		color: $color-dark;
+	}
+
+	#rent-second-step .title-modal {
+		h2 {
+			font-size: 27px;
+			font-weight: 300;
+			color: $color-dark;
+		}
+		margin-bottom: 40px;
+	}
+
+	.border-right {
+		border-left: 1px solid #ddd;
+		position: relative;
+	}
+
+	ul.info-rent {
+		li {
+			padding-bottom: 30px;
+			&:last-child {
+				position: absolute;
+				bottom: 0px;
+				padding:0px;
+			}
+
+			label {
+				font-weight: 900;
+				font-size: 16px;
+				&.cost {
+					font-size: 12px;
+				}
+				display: block;
+				padding-bottom:5px;
+				sub {
+					font-size: 13px;
+				}
+			}
+
+			span {
+				font-size: 11px;
+				font-weight: 500;
+				font-style: italic;
+				padding-top: 4px;
+				opacity: 0.7;
+				display: block;
+				padding-bottom: 8px;
+			}
+
+			h4 {
+				color: $color-primary;
+				font-size: 16px;
+				font-weight: 700;
+			}
+		}
+	}
+	
+	form.form-outline {
+		padding-right: 50px;
+		.blocked {
+			height: 100px;
+			overflow: hidden;
+		}
+		.field {
+			margin-bottom: 15px;
+			input {
+				width: 100%;
+				border-color:transparent;
+				border-bottom: 1px solid $color-primary;
+				font-family: $font-base;
+				font-size: 15px;
+				padding-bottom: 10px;
+				&:focus {
+					outline:none;
+				}
+			}
+		}
+	}
+
+	#go-rent {
+		max-width: 315px;
+		margin: 60px auto 0px auto;
+		display: block;
+	}
+} 

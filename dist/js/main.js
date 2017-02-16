@@ -1,11 +1,15 @@
-
-
 $('#register').on('click', function(){
     $('#modal-register').addClass('modal-show');
     $('body').addClass('no-scroll');
 });
+
 $('#add-topup').on('click', function(){
     $('#modal-topup').addClass('modal-show');
+    $('body').addClass('no-scroll');
+});
+
+$('#add-rent').on('click', function(){
+    $('#modal-rent').addClass('modal-show');
     $('body').addClass('no-scroll');
 });
 
