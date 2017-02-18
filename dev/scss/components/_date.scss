@@ -90,8 +90,7 @@
 	padding:0px;
 	width: 27px;
 	height: 27px;
-	line-height:27px;
-	border-radius: 100%;
+	line-height:27px; 
 	font-size:12px;
 	margin-bottom:1px;
 	color: #ccc;
@@ -268,8 +267,8 @@
 	display: none;
 }
 
-.date-picker-wrapper .first-date-selected { background-color:#49e !important; color:white !important;  }
-.date-picker-wrapper .last-date-selected { background-color:#49e !important; color:white !important;  }
+.date-picker-wrapper .first-date-selected { background-color:$color-primary !important; border-radius: 100px 0px 0px 100px; color:white !important;  }
+.date-picker-wrapper .last-date-selected { background-color:$color-primary !important; border-radius: 0px 100px 100px 0px; color:white !important;  }
 .date-picker-wrapper .date-range-length-tip { position:absolute; margin-top:-4px; margin-left:-8px; box-shadow:0 0 3px rgba(0,0,0,.3); display:none;background-color:yellow; padding:0 6px; border-radius:2px; font-size:12px; line-height:16px; 
 -webkit-filter: drop-shadow(0 0 3px rgba(0,0,0,.3)); 
     -moz-filter: drop-shadow(0 0 3px rgba(0,0,0,.3)); 
@@ -291,3 +290,86 @@
 	cursor: pointer;
 }
 .date-picker-wrapper .week-number.week-number-selected { color: #4499EE; font-weight:bold;  }
+
+// ========================
+
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-time:before {
+    content: "\e023";
+}
+
+.glyphicon-chevron-left:before {
+    content: "\e079";
+}
+
+.glyphicon-chevron-right:before {
+    content: "\e080";
+}
+
+.glyphicon-chevron-up:before {
+    content: "\e113";
+}
+
+.glyphicon-chevron-down:before {
+    content: "\e114";
+}
+
+.glyphicon-calendar:before {
+    content: "\e109";
+}
+
+ 
+
+.collapse {
+    display: none;
+}
+
+    .collapse.in {
+        display: block;
+    }
+
+.dropdown-menu {
+    position: absolute;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+

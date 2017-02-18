@@ -218,16 +218,14 @@
 			.date-picker-wrapper  {
 				margin: 20px 50px;
 				box-shadow:0px 4px 21px 0px rgba(0, 0, 0, 0.09);
-				tr td div.valid  {
+				tr td div.booked  {
 					cursor: default !important;
  					background: transparent !important;
  					color: $color-dark !important;
 				}
-
-				tr td div.booked-active {
-					background-color: #42B373 !important;
-				    background-image :none !important;
-				    color: #ffffff !important;
+				tr td div.has-tooltip {
+  				    color: $color-dark !important;
+				    text-decoration: line-through;
 				}
 			}
 
@@ -352,4 +350,38 @@
 		display: block;
 	}
 }
- 
+
+
+.box-desc-lease {
+	padding-right: 100px;
+
+	&.desc-lease-house {
+		margin-top: -64px;
+	}
+
+	.content-desc {
+		border-bottom: 1px solid #ddd;
+		padding-bottom: 20px;
+		margin-bottom: 10px;
+		margin-top: 30px;
+		overflow: hidden;
+		&:last-child {
+			border-bottom: none;
+		}
+		h4 {
+			font-size: 18px;
+			font-weight: 400;
+			color: $color-primary;
+		}
+
+		ul {
+			width: 100%;
+			text-align: left;
+			li {
+				float: left;
+				width: (100% / 3);
+				padding-bottom: 15px;
+			}
+		}
+	}
+}

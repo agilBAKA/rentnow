@@ -137,6 +137,9 @@
                     stickyMonths: true,
                     autoclose: true,
                     separator : ' to ',
+                    autoApply:true,
+                    customArrowPrevSymbol: '<i class="zmdi zmdi-arrow-left"></i>',
+                    customArrowNextSymbol: '<i class="zmdi zmdi-arrow-right"></i>',
                     getValue: function()
                     {
                         if ($('#search-form').val() && $('#search-to').val() )

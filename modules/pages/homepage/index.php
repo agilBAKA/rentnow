@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
      <?php require 'modules/components/head.php'; ?>
-
 </head>
 <body>
    <?php require 'modules/components/nav.php'; ?>
@@ -203,6 +202,8 @@
                 stickyMonths: true,
                 autoclose: true,
                 separator : ' to ',
+                customArrowPrevSymbol: '<i class="zmdi zmdi-arrow-left"></i>',
+                customArrowNextSymbol: '<i class="zmdi zmdi-arrow-right"></i>',
                 getValue: function()
                 {
                     if ($('#date-form').val() && $('#date-to').val() )

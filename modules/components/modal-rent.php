@@ -8,10 +8,10 @@
 						<h3>Please fill your rent details</h3>
 						<form action="" class="form-outline">
 							<div class="field">
-								<input type="text" placeholder="date-time-picker">
+								<input type="text" placeholder="Select start date here" id="rent-form">
 							</div>
 							<div class="field">
-								<input type="text" placeholder="date-time-picker">
+								<input type="text" placeholder="Select end date here" id="rent-to">
 							</div>
 							<div class="blocked"></div>
 							<div class="field">
@@ -66,14 +66,25 @@
 				<div class="blocked-info">
 					<div class="row">
 						<div class="col-md-6">
-							 
-							<label> Guest </label>
+ 							<label> Guest </label>
 						</div>
 						<div class="col-md-6">
 							<label>4</label>
 						</div>
 					</div>
 				</div>
+				<div class="blocked-info" style="background: transparent;">
+					<div class="row">
+						<div class="col-md-6">
+ 							<label> Guest </label>
+						</div>
+						<div class="col-md-6">
+ 							<label>3 nights x Rp300.000</label>
+ 							<h4>Rp900.000</h4>
+						</div>
+					</div>
+				</div>
+
 				<div class="box-footer">
  					<a href="" class="btn-primary full" id="go-pay">Continue to Payment Page</a>
 				</div>

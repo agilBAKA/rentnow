@@ -1,1 +1,0 @@
-beresin dulu yang transportation

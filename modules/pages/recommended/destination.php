@@ -69,6 +69,6 @@
         </div>
     </div>
     <div class="link-card">
-        <a href="" class="btn-primary-o btn-big">See all available destination</a>
+        <a href="all-destination.php" class="btn-primary-o btn-big">See all available destination</a>
     </div>
     <!-- recommended destination end -->

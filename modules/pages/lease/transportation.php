@@ -3,6 +3,7 @@
 <head>
      <?php require 'modules/components/head.php'; ?>
      <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.45/css/bootstrap-datetimepicker-standalone.css"/>
 
 </head>
 <body class="body-pages">
@@ -91,13 +92,15 @@
                     </div>
                 </div>
                 <div class="clearfix"></div>
-                 <div class="col-md-8">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ullam perspiciatis aliquid molestiae sunt quam maiores quaerat atque quasi assumenda, cumque veritatis explicabo est commodi nisi, aliquam ea optio delectus.
-                    </p>
+                <div class="col-md-8">
+                    <div class="box-desc-lease">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ullam perspiciatis aliquid molestiae sunt quam maiores quaerat atque quasi assumenda, cumque veritatis explicabo est commodi nisi, aliquam ea optio delectus.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -229,6 +232,8 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="dist/js/vendor/jquery.daterangepicker.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.45/js/bootstrap-datetimepicker.min.js"></script>
+
     <script type="text/javascript" src="dist/js/main.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
@@ -249,8 +254,7 @@
             var booked= ["18/02/2017", "19/02/2017", "20/02/2017", "21/02/2017", "22/02/2017"];
             var today = new Date();
               
-
-            // console.log(eventDates);
+                
 
             $('#rent-avail').dateRangePicker(
             {
@@ -262,9 +266,17 @@
                 inline:true,
                 container: '#rent-avail-container',
                 alwaysOpen:true,
-                beforeShowDay: function( e ) {
-                return (booked.indexOf() > -1) ? [true, "event"] : [true, ""];
-             }
+                showDateFilter: function(time, date)
+                    {
+                        return '<div"><span>'+date+'</span></div>';
+                    },
+                    beforeShowDay: function(t)
+                    {
+                        var valid = !(t.getDay() == 0 || t.getDay() == 5 || t.getDay() == 6 ) ;
+                        var _class = 'booked';
+                        var _tooltip = valid ? '' : 'sold out';
+                        return [valid,_class,_tooltip];
+                    }
             });
 
             $('#rent-avail').on('click', function(){
@@ -290,6 +302,9 @@
                  $('#rent-second-step').removeClass('section-rent-active');
                 $('#rent-finish').addClass('section-rent-active');
             });
+
+            $('#rent-form').datetimepicker();
+            $('#rent-to').datetimepicker();
 
           
             
