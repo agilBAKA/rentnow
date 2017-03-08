@@ -2,20 +2,20 @@
 	<form action="search.php">
 		<div class="field">
 			<label for="need">What you need</label>
-			<input type="text" id="need" placeholder="write here">
+			<input type="text" id="need" placeholder="transportation, accommodation, gear">
 		</div>
 		<div class="field">
-			<label for="where">Where</label>
+			<label for="where">Destination, Address</label>
 			<input type="text" id="where" placeholder="find here">
 		</div>
 		<div id="dateRange">
 			<div class="field">
-				<label for="date-form">form</label>
-				<input type="text" id="date-form" placeholder="select here">
+				<label for="date-form">Wherw</label>
+				<input type="text" id="date-form" placeholder="From">
 			</div>
 			<div class="field">
-				<label for="date-to">to</label>
-				<input type="text" id="date-to" placeholder="select here">
+				<!-- <label for="date-to">to</label> -->
+				<input type="text" id="date-to" placeholder="To">
 			</div>
 		</div>
 		<div class="field btn-search">

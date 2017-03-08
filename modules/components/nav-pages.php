@@ -4,11 +4,11 @@
         <div class="menu">
             <ul>
                 <li>
-                    <a href="">Lease Your</a>
+                    <a href="">Become a Provider</a>
                     <ul class="submenu">
                         <li><a href="">Transportation</a></li>
-                        <li><a href="">House</a></li>
-                        <li><a href="">Tools</a></li>
+                        <li><a href="">Accomodation</a></li>
+                        <li><a href="">Gear</a></li>
                     </ul>
                 </li>
             </ul>

@@ -9,11 +9,11 @@
         <div class="menu">
             <ul>
                 <li>
-                    <a href="#">Lease Your<i class="zmdi zmdi-chevron-down"></i></a>
+                    <a href="#">Become a Provide<i class="zmdi zmdi-chevron-down"></i></a>
                     <ul class="submenu">
-                        <li><a href="transportation.php">Transportation</a></li>
-                        <li><a href="home.php">House</a></li>
-                        <li><a href="tools.php">Tools</a></li>
+                        <li><a href="">Transportation</a></li>
+                        <li><a href="">Accomodation</a></li>
+                        <li><a href="">Gear</a></li>
                     </ul>
                 </li>
             </ul>

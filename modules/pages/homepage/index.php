@@ -187,10 +187,10 @@
     <script type="text/javascript" src="dist/js/main.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            var heightHeader = $('header.header-section').outerHeight() - 100;
+            // var heightHeader = $('header.header-section').outerHeight() - 100;
             $(window).scroll(function () {
                 var scolling  =  $(window).scrollTop();
-                if(scolling > heightHeader){
+                if(scolling > 150){
                     $('nav.navigation').addClass('navigation-block');
                 }else {
                     $('nav.navigation').removeClass('navigation-block');
