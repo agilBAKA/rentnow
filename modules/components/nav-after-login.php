@@ -29,11 +29,11 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#" class="btn-primary-o lease">Lease Your<i class="zmdi zmdi-chevron-down"></i></a>
+                    <a href="#" class="btn-primary-o lease">Become a Provide<i class="zmdi zmdi-chevron-down"></i></a>
                     <ul class="submenu">
-                        <li><a href="transportation.php">Transportation</a></li>
-                        <li><a href="house.php">House</a></li>
-                        <li><a href="tools.php">Tools</a></li>
+                        <li><a href="register.php">Transportation</a></li>
+                        <li><a href="register.php">Accommondation</a></li>
+                        <li><a href="register.php">Gear</a></li>
                     </ul>
                 </li>
             </ul>

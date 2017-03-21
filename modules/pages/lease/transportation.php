@@ -115,6 +115,18 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="component-items">
+                        <ul>
+                            <li>
+                                <span>label option</span>
+                                <label>Title option</label>
+                            </li>
+                            <li>
+                                <span>label option</span>
+                                <label>Title option</label>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="aside-rent">
@@ -292,8 +304,7 @@
               
                 
 
-            $('#rent-avail').dateRangePicker(
-            {
+            $('#rent-avail').dateRangePicker({
                 stickyMonths: true,
                 ignoreReadonly: false,
                 format: "dd/mm/yyyy",
@@ -327,9 +338,11 @@
                 };
              });
 
+            $('#rent-form').datetimepicker();
+            $('#rent-to').datetimepicker();
             $('#go-rent').on('click', function(e){
                 e.preventDefault();
-                 $('#rent-first-step').removeClass('section-rent-active');
+                $('#rent-first-step').removeClass('section-rent-active');
                 $('#rent-second-step').addClass('section-rent-active');
             });
 
@@ -339,9 +352,7 @@
                 $('#rent-finish').addClass('section-rent-active');
             });
 
-            $('#rent-form').datetimepicker();
-            $('#rent-to').datetimepicker();
-
+            
           
             
         })

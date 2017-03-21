@@ -11,9 +11,9 @@
                 <li>
                     <a href="#">Become a Provide<i class="zmdi zmdi-chevron-down"></i></a>
                     <ul class="submenu">
-                        <li><a href="">Transportation</a></li>
-                        <li><a href="">Accomodation</a></li>
-                        <li><a href="">Gear</a></li>
+                        <li><a href="register.php">Transportation</a></li>
+                        <li><a href="register.php">Accommodation</a></li>
+                        <li><a href="register.php">Gear</a></li>
                     </ul>
                 </li>
             </ul>

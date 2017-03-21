@@ -58,7 +58,8 @@ header.header-section {
 					label {
 						display: block;
 					}
-					input {
+					select,
+					input { 
 						background: transparent;
 						border: none;
 						color: #ffffff;
@@ -73,6 +74,13 @@ header.header-section {
 
 						&#where {
 							position: relative;
+						}
+					}
+
+					select {
+						padding: 8px 0px;
+						option {
+							color: $color-dark;
 						}
 					}
 

@@ -26,13 +26,20 @@ $('.overlay').on('click', function(){
     $('body').removeClass('no-scroll');
 });
 
+$('.overlay').on('click', function(){
+    $('#modal-topup').removeClass('modal-show');
+    $('body').removeClass('no-scroll');
+});
+
+
 $('#finish-payment').on('click', function(){
     $('#modal-rent').removeClass('modal-show');
     $('body').removeClass('no-scroll');
 });
 
 $('.overlay').on('click', function(){
-    $('#modal-topup').removeClass('modal-show');
+    $('#modal-rent').removeClass('modal-show');
+    $('#modal-rent').addClass('is-work');
     $('body').removeClass('no-scroll');
 });
 

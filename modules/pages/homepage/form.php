@@ -1,8 +1,14 @@
 <div class="box-search">
 	<form action="search.php">
 		<div class="field">
-			<label for="need">What you need</label>
-			<input type="text" id="need" placeholder="transportation, accommodation, gear">
+			<!-- <label for="need">What you need</label>
+			<input type="text" id="need" placeholder="transportation, accommodation, gear"> -->
+			<select name="" id="">
+				<option value="" selected disabled>Select what you need</option>
+				<option value="">Transportation</option>
+				<option value="">Accommdation</option>
+				<option value="">Gear</option>
+			</select>
 		</div>
 		<div class="field">
 			<label for="where">Destination, Address</label>
