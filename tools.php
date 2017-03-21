@@ -1,1 +1,0 @@
- <?php require 'modules/pages/lease/tools.php'; ?>

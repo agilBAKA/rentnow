@@ -12,37 +12,73 @@
         <div id="gallery-slider">
             <div class="content-slider">
                 <div class="title-slider">
-                    <h2>Chevrolet Cruze 1.4L Turbo Engine 2016</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>Chevrolet Cruze 1.4L Turbo Engine 2016</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <img src="https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
             </div>
             <div class="content-slider">
                 <div class="title-slider">
-                    <h2>Chevrolet Cruze 1.4L Turbo Engine 2015</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>Chevrolet Cruze 1.4L Turbo Engine 2015</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <img src="https://images.pexels.com/photos/225841/pexels-photo-225841.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
             </div>
             <div class="content-slider">
                 <div class="title-slider">
-                    <h2>Chevrolet Cruze 1.4L Turbo Engine 2014</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>Chevrolet Cruze 1.4L Turbo Engine 2014</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <img src="https://images.pexels.com/photos/24353/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
             </div>
             <div class="content-slider">
                 <div class="title-slider">
-                    <h2>Chevrolet Cruze 1.4L Turbo Engine 2013</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>Chevrolet Cruze 1.4L Turbo Engine 2013</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <img src="https://images.pexels.com/photos/28993/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
             </div>
             <div class="content-slider">
                 <div class="title-slider">
-                    <h2>Chevrolet Cruze 1.4L Turbo Engine 2012</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>Chevrolet Cruze 1.4L Turbo Engine 2012</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <img src="https://images.pexels.com/photos/50704/car-race-ferrari-racing-car-pirelli-50704.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
             </div>
             <div class="content-slider">
                 <div class="title-slider">
-                    <h2>Chevrolet Cruze 1.4L Turbo Engine 2011</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>Chevrolet Cruze 1.4L Turbo Engine 2011</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
             </div>

@@ -14,12 +14,18 @@
 
 			.title-slider{
 				position: absolute;
-				max-width: 1170px;
-				width: 100%;
-				left: 50%;
-				top: 40px;
-				transform:translateX(-50%);
-				h2 {
+ 				width: 100%;
+ 				top: 0px;
+ 				padding: 30px 0px 150px 0px;
+ 				background: rgba(0,0,0,0.69);
+				background: -moz-linear-gradient(top, rgba(0,0,0,0.69) 0%, rgba(0,0,0,0.39) 43%, rgba(246,246,246,0.14) 80%, rgba(255,255,255,0) 100%);
+				background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.69)), color-stop(43%, rgba(0,0,0,0.39)), color-stop(80%, rgba(246,246,246,0.14)), color-stop(100%, rgba(255,255,255,0)));
+				background: -webkit-linear-gradient(top, rgba(0,0,0,0.69) 0%, rgba(0,0,0,0.39) 43%, rgba(246,246,246,0.14) 80%, rgba(255,255,255,0) 100%);
+				background: -o-linear-gradient(top, rgba(0,0,0,0.69) 0%, rgba(0,0,0,0.39) 43%, rgba(246,246,246,0.14) 80%, rgba(255,255,255,0) 100%);
+				background: -ms-linear-gradient(top, rgba(0,0,0,0.69) 0%, rgba(0,0,0,0.39) 43%, rgba(246,246,246,0.14) 80%, rgba(255,255,255,0) 100%);
+				background: linear-gradient(to bottom, rgba(0,0,0,0.69) 0%, rgba(0,0,0,0.39) 43%, rgba(246,246,246,0.14) 80%, rgba(255,255,255,0) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=0 );
+ 				h2 {
 					font-size: 24px;
 					color: #ffffff;
 					font-weight: 300;

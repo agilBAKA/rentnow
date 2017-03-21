@@ -1,0 +1,1 @@
+ <?php require 'modules/pages/lease/gear.php'; ?>

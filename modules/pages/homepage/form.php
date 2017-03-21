@@ -10,11 +10,11 @@
 		</div>
 		<div id="dateRange">
 			<div class="field">
-				<label for="date-form">Wherw</label>
+				<label for="date-form">Where</label>
 				<input type="text" id="date-form" placeholder="From">
 			</div>
 			<div class="field">
-				<!-- <label for="date-to">to</label> -->
+				<label for="date-to" style="opacity: 0">a</label>
 				<input type="text" id="date-to" placeholder="To">
 			</div>
 		</div>

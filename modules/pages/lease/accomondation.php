@@ -12,39 +12,75 @@
         <div id="gallery-slider">
             <div class="content-slider">
                 <div class="title-slider">
-                    <h2>Camera Type 6</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>The Pondhouse - A Magical Place Type 1</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <img src="https://images.pexels.com/photos/90368/pexels-photo-90368.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                <img src="https://images.pexels.com/photos/259597/pexels-photo-259597.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
             </div>
             <div class="content-slider">
                 <div class="title-slider">
-                    <h2>Camera Type 5</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>The Pondhouse - A Magical Place Type 2</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <img src="https://images.pexels.com/photos/35107/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                <img src="https://images.pexels.com/photos/292427/pexels-photo-292427.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
             </div>
             <div class="content-slider">
                 <div class="title-slider">
-                    <h2>Camera Type 4</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>The Pondhouse - A Magical Place Type 3</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <img src="https://images.pexels.com/photos/122400/pexels-photo-122400.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                <img src="https://images.pexels.com/photos/77931/pexels-photo-77931.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+            </div>
+            <div class="content-slider">
+               <div class="title-slider">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>The Pondhouse - A Magical Place Type 4</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="https://images.pexels.com/photos/265579/pexels-photo-265579.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
             </div>
             <div class="content-slider">
                 <div class="title-slider">
-                    <h2>Camera Type 3</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>The Pondhouse - A Magical Place Type 5</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <img src="https://images.pexels.com/photos/28855/pexels-photo-28855.jpg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                <img src="https://images.pexels.com/photos/299389/pexels-photo-299389.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
             </div>
             <div class="content-slider">
                 <div class="title-slider">
-                    <h2>Camera Type 2</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>The Pondhouse - A Magical Place Type 6</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <img src="https://images.pexels.com/photos/298298/pexels-photo-298298.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
-            </div>
-            <div class="content-slider">
-                <div class="title-slider">
-                    <h2>Camera Type 1</h2>
-                </div>
-                <img src="https://images.pexels.com/photos/169928/pexels-photo-169928.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
+                <img src="https://images.pexels.com/photos/189333/pexels-photo-189333.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" class="img-cover">
             </div>
         </div>
         <div class="box-price">
@@ -151,7 +187,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                        <h4 class="list-heading">Similar Tools</h4>
+                        <h4 class="list-heading">Similar Accomondation</h4>
                  </div>
              </div>
         </div>
